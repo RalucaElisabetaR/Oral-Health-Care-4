@@ -436,7 +436,7 @@ slider-component.slider-component-full-width {
 
 #Slide-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11 .slider {
   /* Starting position */
-  -moz-transform: translateX(100%);
+  -moz-transform: translateX(50%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   /* Apply animation to this element */
@@ -446,7 +446,7 @@ slider-component.slider-component-full-width {
 }
 @-moz-keyframes slideIn {
   0% {
-    -moz-transform: translateX(100%);
+    -moz-transform: translateX(50%);
   }
   100% {
     -moz-transform: translateX(-100%);
@@ -454,7 +454,7 @@ slider-component.slider-component-full-width {
 }
 @-webkit-keyframes slideIn {
   0% {
-    -webkit-transform: translateX(100%);
+    -webkit-transform: translateX(50%);
   }
   100% {
     -webkit-transform: translateX(-100%);
