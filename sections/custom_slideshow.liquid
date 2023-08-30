@@ -1,6 +1,12 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {{ 'custom-slider.css' | asset_url | stylesheet_tag }}
 {{ 'custom-slideshow.css' | asset_url | stylesheet_tag }}
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
