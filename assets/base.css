@@ -3309,8 +3309,14 @@ details-disclosure > details {
   }
 
   @keyframes slideIn {
-   0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+    from {
+      transform: translateY(2rem);
+      opacity: 0.01;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 
   @keyframes fadeIn {
