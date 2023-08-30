@@ -243,14 +243,14 @@
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
   <script>
-    const swiper = new Swiper('.swiper', {
+ const swiper = new Swiper('.swiper', {
   // Optional parameters
-      effect: 'coverflow',
+   parallax:true,
   direction: 'horizontal',
   loop: true,
 
-});
 
+});
   </script>
 
  
