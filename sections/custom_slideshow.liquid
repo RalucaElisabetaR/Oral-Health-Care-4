@@ -105,13 +105,14 @@
   {%- endif -%}
 
   <div
-    class=" slideshow banner banner--{{ section.settings.slide_height }} grid grid--2-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+     class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--2-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
     aria-atomic="true"
     data-autoplay="{{ section.settings.auto_rotate }}"
     data-speed="{{ section.settings.change_slides_speed }}"
   >
+    
     {%- for block in section.blocks -%}
       <style>
         #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
@@ -119,7 +120,7 @@
         }
       </style>
       <div
-        class=" slideshow__slide grid__item grid--1-col slider__slide "
+        class="slideshow__slide grid__item grid--1-col slider__slide {% if section.settings.auto_rotate %}slideshow__slide--auto{% endif %}"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
         role="group"
