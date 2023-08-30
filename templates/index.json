@@ -116,12 +116,48 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "53abfdc3-e821-4101-9b65-8d014c36d1a8": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "f02bcc38-98f3-44ab-bdda-4af7fae8071b": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11-slide-1",
         "template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11-slide-2",
-        "5b7e8ef0-06dd-4f9a-b6e9-b407ef6f7700"
+        "5b7e8ef0-06dd-4f9a-b6e9-b407ef6f7700",
+        "53abfdc3-e821-4101-9b65-8d014c36d1a8",
+        "f02bcc38-98f3-44ab-bdda-4af7fae8071b"
       ],
       "custom_css": [
 
