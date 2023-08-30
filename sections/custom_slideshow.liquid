@@ -23,11 +23,11 @@
       }
     }
      @media (prefers-reduced-motion: no-preference) {
-    @keyframes slide {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-500%); }
-    }
-
+   
+@keyframes slide {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}
     .slideshow__slide {
       animation: slide 15s linear;
     }
