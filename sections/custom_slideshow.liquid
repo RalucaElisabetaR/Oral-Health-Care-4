@@ -4,69 +4,67 @@
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
-    @media screen and (max-width: 749px) {
-      #Slider-{{ section.id }}::before,
-      #Slider-{{ section.id }} .media::before,
-      #Slider-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
-        padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
-        content: '';
-        display: block;
-      }
+        @media screen and (max-width: 749px) {
+          #Slider-{{ section.id }}::before,
+          #Slider-{{ section.id }} .media::before,
+          #Slider-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
+            padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
+            content: '';
+            display: block;
+          }
+        }
+
+        @media screen and (min-width: 750px) {
+          #Slider-{{ section.id }}::before,
+          #Slider-{{ section.id }} .media::before {
+            padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
+            content: '';
+            display: block;
+          }
+        }
+
+    .slider .slideshow{
+     height: 50px;
+     overflow: hidden;
+     position: relative;
     }
+    .slideshow__slide .slider__slide{
 
-    @media screen and (min-width: 750px) {
-      #Slider-{{ section.id }}::before,
-      #Slider-{{ section.id }} .media::before {
-        padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
-        content: '';
-        display: block;
-      }
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     text-align: center;
+     /* Starting position */
+     -moz-transform:translateX(100%);
+     -webkit-transform:translateX(100%);
+     transform:translateX(100%);
+     /* Apply animation to this element */
+     -moz-animation: example1 25s linear infinite;
+     -webkit-animation: example1 25s linear infinite;
+     animation: example1 25s linear infinite;
     }
-
-.slider {
- height: 50px;	
- overflow: hidden;
- position: relative;
-}
-.slideshow__slide{
-
- position: absolute;
- width: 100%;
- height: 100%;
- margin: 0;
- text-align: center;
- /* Starting position */
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%);	
- transform:translateX(100%);
- /* Apply animation to this element */	
- -moz-animation: example1 25s linear infinite;
- -webkit-animation: example1 25s linear infinite;
- animation: example1 25s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes example1 {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes example1 {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes example1 {
- 0%   { 
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
- transform: translateX(100%); 		
- }
- 100% { 
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
- transform: translateX(-100%); 
- }
-}
-
-    
+    /* Move it (define the animation) */
+    @-moz-keyframes example1 {
+     0%   { -moz-transform: translateX(100%); }
+     100% { -moz-transform: translateX(-100%); }
+    }
+    @-webkit-keyframes example1 {
+     0%   { -webkit-transform: translateX(100%); }
+     100% { -webkit-transform: translateX(-100%); }
+    }
+    @keyframes example1 {
+     0%   {
+     -moz-transform: translateX(100%); /* Firefox bug fix */
+     -webkit-transform: translateX(100%); /* Firefox bug fix */
+     transform: translateX(100%);
+     }
+     100% {
+     -moz-transform: translateX(-100%); /* Firefox bug fix */
+     -webkit-transform: translateX(-100%); /* Firefox bug fix */
+     transform: translateX(-100%);
+     }
+    }
   {%- endstyle -%}
 {%- endif -%}
 
@@ -227,7 +225,7 @@
           </div>
         </div>
       </div>
-          <div
+      <div
         class="slideshow__slide grid__item grid--1-col slider__slide"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
@@ -293,7 +291,6 @@
       </div>
     {%- endfor -%}
   </div>
-  
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
     <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
@@ -367,16 +364,11 @@
       </div>
     </noscript>
   {%- endif -%}
-  
 </slideshow-component>
-
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
-  <script>
-
-
-</script>
+  <script></script>
 {%- endif -%}
 
 {% schema %}
