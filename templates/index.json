@@ -123,6 +123,9 @@
         "template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11-slide-2",
         "5b7e8ef0-06dd-4f9a-b6e9-b407ef6f7700"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "layout": "grid",
         "slide_height": "medium",
@@ -133,11 +136,21 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n#Slide-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11-2 {\n  visibility: visible !important;\n}\n<\/style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "slideshow",
     "featured-collection-0",
-    "ee84acdf-ba27-40ad-a4d4-68e5464cfc11"
+    "ee84acdf-ba27-40ad-a4d4-68e5464cfc11",
+    "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23"
   ]
 }
