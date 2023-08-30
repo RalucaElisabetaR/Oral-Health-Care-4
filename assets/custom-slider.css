@@ -394,3 +394,26 @@ slider-component.slider-component-full-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
+
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+}
+
+.slideshow__slide {
+  animation: slide 5s linear infinite;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-500%); }
+  }
+}
+
+.slideshow__slide {
+  animation: slide 25s linear infinite;
+}
