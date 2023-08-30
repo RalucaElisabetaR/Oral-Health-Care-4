@@ -235,8 +235,9 @@
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    window.addEventListener('SlideshowComponentLoaded', function() {
       class SmoothSlideshowComponent extends customElements.get('slideshow-component') {
         autoRotateSlides() {
           const isLastSlide = this.currentPage === this.sliderItems.length;
