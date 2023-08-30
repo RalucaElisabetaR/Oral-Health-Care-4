@@ -22,6 +22,20 @@
         display: block;
       }
     }
+     @media (prefers-reduced-motion: no-preference) {
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-500%); }
+    }
+
+    .slideshow__slide {
+      animation: slide 25s linear infinite;
+    }
+
+    .slideshow__slide:hover {
+      animation-play-state: paused;
+    }
+  }
   {%- endstyle -%}
 {%- endif -%}
 
@@ -258,6 +272,7 @@
     </noscript>
   {%- endif -%}
 </slideshow-component>
+
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
