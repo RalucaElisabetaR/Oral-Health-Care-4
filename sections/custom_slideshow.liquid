@@ -238,6 +238,17 @@
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+  <script>
+    var currentIndex = 0;
+var slides = document.querySelectorAll('.slideshow__slide');
+
+setInterval(function() {
+  slides[currentIndex].classList.remove('active');
+  currentIndex = (currentIndex + 1) % slides.length;
+  slides[currentIndex].classList.add('active');
+}, 1000);
+
+  </script>
 {%- endif -%}
 
 {% schema %}
