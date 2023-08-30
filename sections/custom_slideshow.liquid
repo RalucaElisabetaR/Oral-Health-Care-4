@@ -2,6 +2,8 @@
 {{ 'custom-slider.css' | asset_url | stylesheet_tag }}
 {{ 'custom-slideshow.css' | asset_url | stylesheet_tag }}
 
+
+
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 749px) {
@@ -105,7 +107,7 @@
   {%- endif -%}
 
   <div
-    class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--3-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+    class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
     aria-atomic="true"
@@ -265,7 +267,7 @@
 
 {% schema %}
 {
-  "name": "Custom Slideshow",
+  "name": "t:sections.slideshow.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -567,7 +569,7 @@
   ],
   "presets": [
     {
-      "name": "Custom Slideshow",
+      "name": "t:sections.slideshow.presets.name",
       "blocks": [
         {
           "type": "slide"
