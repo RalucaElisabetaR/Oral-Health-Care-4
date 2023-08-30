@@ -176,7 +176,7 @@
     "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n#Slide-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11-2 {\n  visibility: visible !important;\n}\n<\/style>",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
