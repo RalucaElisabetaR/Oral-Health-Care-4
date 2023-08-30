@@ -160,7 +160,7 @@
         "f02bcc38-98f3-44ab-bdda-4af7fae8071b"
       ],
       "custom_css": [
-
+        ".slideshow__slide {transition: transform 1s linear;}"
       ],
       "settings": {
         "layout": "grid",
