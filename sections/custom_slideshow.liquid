@@ -344,27 +344,6 @@
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
   <script>
 
- document.addEventListener('DOMContentLoaded', function() {
-    const slideshow = document.querySelector('.slideshow__slide');
-
-    slideshow.addEventListener('mouseover', function() {
-      slideshow.style.animationPlayState = 'paused';
-    });
-
-    slideshow.addEventListener('mouseout', function() {
-      slideshow.style.animationPlayState = 'running';
-    });
-
-    slideshow.addEventListener('click', function() {
-      const animationPlayState = getComputedStyle(slideshow).animationPlayState;
-
-      if (animationPlayState === 'running') {
-        slideshow.style.animationPlayState = 'paused';
-      } else {
-        slideshow.style.animationPlayState = 'running';
-      }
-    });
-  });
 
 </script>
 {%- endif -%}
