@@ -440,9 +440,9 @@ slider-component.slider-component-full-width {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   /* Apply animation to this element */
-  -moz-animation: slideIn 25s linear infinite;
-  -webkit-animation: slideIn 25s linear infinite;
-  animation: slideIn 25s linear infinite;
+  -moz-animation: slideIn 5s linear infinite;
+  -webkit-animation: slideIn 5s linear infinite;
+  animation: slideIn 5s linear infinite;
 }
 @-moz-keyframes slideIn {
   0% {
