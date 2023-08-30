@@ -242,7 +242,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.slideshow.name",
+  "name": "BEUNIQUE Slideshow",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -371,15 +371,11 @@
     {
       "type": "slide",
       "name": "t:sections.slideshow.blocks.slide.name",
-      "limit": 5,
+      "limit": 15,
       "settings": [
+        
         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.slideshow.blocks.slide.settings.image.label"
-        },
-        {
-          "type": "inline_richtext",
+          "type": "textarea",
           "id": "heading",
           "default": "Image slide",
           "label": "t:sections.slideshow.blocks.slide.settings.heading.label"
@@ -405,7 +401,7 @@
           "label": "t:sections.all.heading_size.label"
         },
         {
-          "type": "inline_richtext",
+          "type": "textarea",
           "id": "subheading",
           "default": "Tell your brand's story through images",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
@@ -544,7 +540,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.slideshow.presets.name",
+      "name": "BEUNIQUE Slideshow",
       "blocks": [
         {
           "type": "slide"
