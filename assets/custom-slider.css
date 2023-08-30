@@ -436,7 +436,7 @@ slider-component.slider-component-full-width {
 
 #Slide-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11 .slider {
   /* Starting position */
-  -moz-transform: translateX(70%);
+  -moz-transform: translateX(30%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   /* Apply animation to this element */
