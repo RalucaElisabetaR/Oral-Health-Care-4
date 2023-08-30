@@ -174,7 +174,7 @@
         "h2 {font-size: calc(var(--font-heading-scale) * 1.8rem); padding-bottom: 20px;}"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": true,
