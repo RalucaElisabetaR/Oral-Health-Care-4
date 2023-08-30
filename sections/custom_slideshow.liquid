@@ -36,29 +36,29 @@
      margin: 0;
      text-align: center;
      /* Starting position */
-     -moz-transform:translateX(100%);
-     -webkit-transform:translateX(100%);
-     transform:translateX(100%)!;
+     -moz-transform:translateX(100%)!important;
+     -webkit-transform:translateX(100%)!important;
+     transform:translateX(100%)!important;
       
      /* Apply animation to this element */
-     -moz-animation: example1 25s linear infinite;
-     -webkit-animation: example1 25s linear infinite;
-     animation: example1 25s linear infinite;
+     -moz-animation: example1 25s linear infinite!important;
+     -webkit-animation: example1 25s linear infinite!important;
+     animation: example1 25s linear infinite!important;
     }
     /* Move it (define the animation) */
     @-moz-keyframes example1 {
-     0%   { -moz-transform: translateX(100%); }
-     100% { -moz-transform: translateX(-100%); }
+     0%   { -moz-transform: translateX(100%)!important; }
+     100% { -moz-transform: translateX(-100%)!important; }
     }
     @-webkit-keyframes example1 {
-     0%   { -webkit-transform: translateX(100%); }
-     100% { -webkit-transform: translateX(-100%); }
+     0%   { -webkit-transform: translateX(100%)!important; }
+     100% { -webkit-transform: translateX(-100%)!mportant; }
     }
     @keyframes example1 {
      0%   {
      -moz-transform: translateX(100%); /* Firefox bug fix */
      -webkit-transform: translateX(100%); /* Firefox bug fix */
-     transform: translateX(100%);
+     transform: translateX(100%)!important;
      }
      100% {
      -moz-transform: translateX(-100%); /* Firefox bug fix */
