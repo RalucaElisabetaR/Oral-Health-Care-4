@@ -440,11 +440,11 @@ slider-component.slider-component-full-width {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   /* Apply animation to this element */
-  -moz-animation: slideIn 5s linear infinite;
-  -webkit-animation: slideIn 5s linear infinite;
-  animation: slideIn 5s linear infinite;
+  -moz-animation: custom  5s linear infinite;
+  -webkit-animation: custom  5s linear infinite;
+  animation: custom  5s linear infinite;
 }
-@-moz-keyframes slideIn {
+@-moz-keyframes custom {
   0% {
     -moz-transform: translateX(50%);
   }
@@ -452,7 +452,7 @@ slider-component.slider-component-full-width {
     -moz-transform: translateX(-100%);
   }
 }
-@-webkit-keyframes slideIn {
+@-webkit-keyframes custom  {
   0% {
     -webkit-transform: translateX(50%);
   }
@@ -460,7 +460,7 @@ slider-component.slider-component-full-width {
     -webkit-transform: translateX(-100%);
   }
 }
-@keyframes slideIn {
+@keyframes custom  {
   0% {
     -moz-transform: translateX(100%); /* Firefox bug fix */
     -webkit-transform: translateX(100%); /* Firefox bug fix */
