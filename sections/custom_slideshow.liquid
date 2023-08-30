@@ -2,8 +2,6 @@
 {{ 'custom-slider.css' | asset_url | stylesheet_tag }}
 {{ 'custom-slideshow.css' | asset_url | stylesheet_tag }}
 
-
-
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 749px) {
@@ -129,7 +127,6 @@
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
       >
-    
         <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
             {%- if block.settings.heading != blank -%}
@@ -239,15 +236,14 @@
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
   <script>
-    var currentIndex = 0;
-var slides = document.querySelectorAll('.slideshow__slide');
+        var currentIndex = 0;
+    var slides = document.querySelectorAll('.slideshow__slide');
 
-setInterval(function() {
-  slides[currentIndex].classList.remove('active');
-  currentIndex = (currentIndex + 1) % slides.length;
-  slides[currentIndex].classList.add('active');
-}, 1000);
-
+    setInterval(function() {
+      slides[currentIndex].classList.remove('active');
+      currentIndex = (currentIndex + 1) % slides.length;
+      slides[currentIndex].classList.add('active');
+    }, 1000);
   </script>
 {%- endif -%}
 
