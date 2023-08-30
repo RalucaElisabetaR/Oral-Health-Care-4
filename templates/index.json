@@ -163,8 +163,7 @@
         ".slideshow__media {display: none;}",
         ".content-container {border-radius: 20px; background-color: white; display: block; height: 100% !important; padding: 10% 10% 10% 10%;}",
         ".slideshow__text-wrapper {padding: 2rem;}",
-        "h2 {font-size: calc(var(--font-heading-scale) * 1.8rem); padding-bottom: 20px;}",
-        ".grid--1-col {width: calc( 33.333% - var(--desktop-margin-left-first-item) - var(--grid-desktop-horizontal-spacing) * 2 )"
+        "h2 {font-size: calc(var(--font-heading-scale) * 1.8rem); padding-bottom: 20px;}"
       ],
       "settings": {
         "layout": "full_bleed",
