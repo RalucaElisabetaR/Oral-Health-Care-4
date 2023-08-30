@@ -24,17 +24,18 @@
     }
      @media (prefers-reduced-motion: no-preference) {
    
+
+    .slideshow__slide {
+       animation: slide 10s linear;
+    }
 @keyframes slide {
   0%    { left: 0; }
   100%  { left: -200%; }
 }
-    .slideshow__slide {
-       animation: slide 10s linear;
-    }
-
     .slideshow__slide:hover {
       animation-play-state: paused;
     }
+       
   }
   {%- endstyle -%}
 {%- endif -%}
