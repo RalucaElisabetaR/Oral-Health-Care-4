@@ -105,27 +105,21 @@
   {%- endif -%}
 
   <div
-    class=" slideshow banner banner--{{ section.settings.slide_height }} grid swiper grid--2-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+    class=" slideshow banner banner--{{ section.settings.slide_height }} grid grid--2-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
     aria-atomic="true"
     data-autoplay="{{ section.settings.auto_rotate }}"
     data-speed="{{ section.settings.change_slides_speed }}"
   >
-     <div class="swiper-wrapper">
-    
     {%- for block in section.blocks -%}
       <style>
         #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
-        .swiper {
-  width: 600px;
-  height: 300px;
-}
       </style>
       <div
-        class=" slideshow__slide grid__item grid--1-col slider__slide swiper-slide"
+        class=" slideshow__slide grid__item grid--1-col slider__slide "
         id="Slide-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
         role="group"
@@ -163,7 +157,6 @@
         </div>
       </div>
     {%- endfor -%}
-     </div>
   </div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
@@ -242,23 +235,6 @@
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
-  <script>
- const swiper = new Swiper('.swiper', {
- effect: 'slide',
-   direction:'horizontal',
-   speed: 1,
-  spaceBetween: 100,
- 
- slideShadows: true
-
-});
-    const swiper = document.querySelector('.swiper').swiper;
-
-// Now you can use all slider methods like
-swiper.slideNext();
-  </script>
-
- 
 {%- endif -%}
 
 {% schema %}
@@ -266,7 +242,7 @@ swiper.slideNext();
   "name": "BEUNIQUE Slide",
   "tag": "section",
   "class": "section",
-  
+
   "settings": [
     {
       "type": "select",
