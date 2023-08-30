@@ -176,7 +176,7 @@
     "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{%- style -%}\n @media (prefers-reduced-motion: no-preference) {\n    @keyframes slide {\n      0% { transform: translateX(0); }\n      100% { transform: translateX(-500%); }\n    }\n\n    .slideshow__slide {\n      animation: slide 25s linear infinite;\n    }\n\n     .slideshow__slide:hover {\n      animation-play-state: paused;\n    }\n  }\n  {%- endstyle -%}",
+        "custom_liquid": "{%- style -%}\n@media (prefers-reduced-motion: no-preference) {\n  @keyframes slide {\n    0% { transform: translateX(0); }\n    100% { transform: translateX(-500%); }\n  }\n}\n\n.slideshow__slide {\n  animation: slide 25s linear infinite;\n}\n  {%- endstyle -%}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
