@@ -276,6 +276,22 @@
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+  <script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const slideshow = document.querySelector('.slideshow__slide');
+
+    slideshow.addEventListener('click', function() {
+      const animationPlayState = getComputedStyle(slideshow).animationPlayState;
+
+      if (animationPlayState === 'running') {
+        slideshow.style.animationPlayState = 'paused';
+      } else {
+        slideshow.style.animationPlayState = 'running';
+      }
+    });
+  });
+</script>
 {%- endif -%}
 
 {% schema %}
