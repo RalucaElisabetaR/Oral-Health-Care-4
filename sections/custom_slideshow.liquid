@@ -236,48 +236,7 @@
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 
-  <script>
-    window.addEventListener('SlideshowComponentLoaded', function() {
-      class SmoothSlideshowComponent extends customElements.get('slideshow-component') {
-        autoRotateSlides() {
-          const isLastSlide = this.currentPage === this.sliderItems.length;
-          const slideScrollPosition = isLastSlide
-            ? 0
-            : this.slider.scrollLeft + this.sliderItemOffset;
-
-          if (isLastSlide) {
-            this.currentPage = 1;
-          } else {
-            this.currentPage++;
-          }
-
-          this.setSlidePosition(slideScrollPosition);
-          this.applyAnimationToAnnouncementBar();
-          this.update();
-        }
-
-        setSlidePosition(position) {
-          if (this.setPositionTimeout) clearTimeout(this.setPositionTimeout);
-          this.setPositionTimeout = setTimeout(() => {
-            this.slider.scrollTo({
-              left: position,
-              behavior: 'smooth',
-            });
-          }, this.announcerBarAnimationDelay);
-        }
-      }
-
-      customElements.define('smooth-slideshow-component', SmoothSlideshowComponent);
-
-      // Replace slideshow-component with smooth-slideshow-component in the HTML
-      const slideshowComponents = document.querySelectorAll('slideshow-component');
-      slideshowComponents.forEach(slideshowComponent => {
-        const smoothSlideshowComponent = document.createElement('smooth-slideshow-component');
-        smoothSlideshowComponent.innerHTML = slideshowComponent.innerHTML;
-        slideshowComponent.replaceWith(smoothSlideshowComponent);
-      });
-    });
-  </script>
+ 
 {%- endif -%}
 
 {% schema %}
