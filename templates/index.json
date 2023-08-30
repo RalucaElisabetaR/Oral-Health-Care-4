@@ -63,15 +63,6 @@
         "padding_bottom": 60
       }
     },
-    "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n\n\n<\/style>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "ee84acdf-ba27-40ad-a4d4-68e5464cfc11": {
       "type": "custom_slideshow",
       "blocks": {
@@ -184,12 +175,21 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n#Slider-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11 .grid--1-col {\n  width: calc(\n    33.333% - var(--desktop-margin-left-first-item) -\n      var(--grid-desktop-horizontal-spacing) * 2\n  );\n \n}\n.slider__slide {\n  visibility: visible !important;\n \n}\n\n<\/style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "slideshow",
     "featured-collection-0",
-    "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23",
-    "ee84acdf-ba27-40ad-a4d4-68e5464cfc11"
+    "ee84acdf-ba27-40ad-a4d4-68e5464cfc11",
+    "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23"
   ]
 }
