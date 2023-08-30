@@ -86,10 +86,10 @@
         "template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11-slide-2": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/4.png\" alt=\"\" style=\"width:100px;height:100px;\">\n\n<\/div>\n<h3>Hemp: Nature's Microbial Maestro<\/h3>",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "<p>Central to our line of products is the dynamic hemp molecule. This potent natural agent stands out for its unique ability to disrupt interbacterial communication. By halting this bacterial chatter, hemp effectively deactivates harmful bacteria, safeguarding the oral environment from potential threats.<\/p>",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
