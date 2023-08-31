@@ -237,14 +237,14 @@
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Our products",
         "heading_size": "h2",
         "description": "<p>Discover the revolutionary approach to oral health with the world’s ONLY fluoride-free, hemp-infused, and Dead Sea salt mineral-enriched oral care range.<\/p>",
         "show_description": false,
-        "description_style": "body",
+        "description_style": "subtitle",
         "collection": "all",
         "products_to_show": 3,
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
