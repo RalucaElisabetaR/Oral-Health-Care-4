@@ -101,6 +101,9 @@
         "fcf6a4aa-0bdb-47ac-a621-03fe008d6c7b",
         "c62076b1-2cde-4709-8de8-70c9a1e1b7bf"
       ],
+      "custom_css": [
+        ".slideshow__slide {animation: fadeIn 1s linear;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
