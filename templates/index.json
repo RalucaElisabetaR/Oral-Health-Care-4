@@ -10,7 +10,25 @@
             "heading": "Unleash nature's secret for a radiant smile!",
             "heading_size": "h1",
             "subheading": "Dive into hemp & Dead Sea minerals",
-            "button_label": "Shop all",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "823c9e11-4d73-4426-8da1-8dd781605d1f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STOP.png",
+            "heading": "Experience oral care reimagined",
+            "heading_size": "h1",
+            "subheading": "Where hemp meets Dead Sea magic",
+            "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "box_align": "middle-left",
@@ -23,7 +41,8 @@
         }
       },
       "block_order": [
-        "slide-0"
+        "slide-0",
+        "823c9e11-4d73-4426-8da1-8dd781605d1f"
       ],
       "settings": {
         "layout": "full_bleed",
