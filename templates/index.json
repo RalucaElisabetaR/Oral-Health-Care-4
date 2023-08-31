@@ -74,13 +74,32 @@
             "color_scheme": "background-2",
             "text_alignment_mobile": "left"
           }
+        },
+        "c62076b1-2cde-4709-8de8-70c9a1e1b7bf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STOP.png",
+            "heading": "Embrace the extraordinary blend of hemp & Dead Sea minerals.",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
         }
       },
       "block_order": [
         "slide-0",
         "823c9e11-4d73-4426-8da1-8dd781605d1f",
         "8a8fe684-5e29-425c-9d48-bc7fc56ec3c9",
-        "fcf6a4aa-0bdb-47ac-a621-03fe008d6c7b"
+        "fcf6a4aa-0bdb-47ac-a621-03fe008d6c7b",
+        "c62076b1-2cde-4709-8de8-70c9a1e1b7bf"
       ],
       "settings": {
         "layout": "full_bleed",
