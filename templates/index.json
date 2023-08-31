@@ -17,7 +17,7 @@
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 10,
-            "color_scheme": "inverse",
+            "color_scheme": "background-2",
             "text_alignment_mobile": "left"
           }
         },
@@ -35,7 +35,7 @@
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 10,
-            "color_scheme": "inverse",
+            "color_scheme": "background-2",
             "text_alignment_mobile": "left"
           }
         },
