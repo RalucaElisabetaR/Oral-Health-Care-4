@@ -34,10 +34,14 @@
         "template--20837676974387__bec034c4-4a9f-47e5-8395-7026f93039b9-text-1",
         "template--20837676974387__bec034c4-4a9f-47e5-8395-7026f93039b9-buttons-1"
       ],
+      "custom_css": [
+        ".banner__heading,.button,.banner__content,.rte {opacity: 1 !important;}",
+        ".rte {color:white;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
-        "image_overlay_opacity": 50,
-        "banner_box_opacity": 30,
+        "image_overlay_opacity": 0,
+        "banner_box_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
@@ -65,7 +69,7 @@
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 70,
+            "image_overlay_opacity": 0,
             "color_scheme": "background-2",
             "text_alignment_mobile": "left"
           }
