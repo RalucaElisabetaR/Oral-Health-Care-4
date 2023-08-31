@@ -225,12 +225,21 @@
         "accessibility_info": ""
       }
     },
+    "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\nhtml {\n        scroll-behavior: smooth;\n    }\n#Slider-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11 .grid--1-col {\n  width: calc(\n    33.333% - var(--desktop-margin-left-first-item) -\n      var(--grid-desktop-horizontal-spacing) * 2\n  )\n \n}\n\n#Slider-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11 .slider__slide  {\n  visibility: visible !important;\n}\n#Slider-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11 .slider__slide{\n         scroll-snap-align: center;\n\n\n}\n\n\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Discover the revolutionary approach to oral health with the world’s ONLY fluoride-free, hemp-infused, and Dead Sea salt mineral-enriched oral care range.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
@@ -252,21 +261,12 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },
-    "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\nhtml {\n        scroll-behavior: smooth;\n    }\n#Slider-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11 .grid--1-col {\n  width: calc(\n    33.333% - var(--desktop-margin-left-first-item) -\n      var(--grid-desktop-horizontal-spacing) * 2\n  )\n \n}\n\n#Slider-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11 .slider__slide  {\n  visibility: visible !important;\n}\n#Slider-template--20837676974387__ee84acdf-ba27-40ad-a4d4-68e5464cfc11 .slider__slide{\n         scroll-snap-align: center;\n\n\n}\n\n\n<\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "slideshow",
     "ee84acdf-ba27-40ad-a4d4-68e5464cfc11",
-    "featured-collection-0",
-    "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23"
+    "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23",
+    "featured-collection-0"
   ]
 }
