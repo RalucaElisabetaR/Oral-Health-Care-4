@@ -18,11 +18,19 @@
             "text": "Experience oral care reimagined — Where hemp meets Dead Sea magic",
             "link": ""
           }
+        },
+        "75c701f6-6fda-47cd-b5e7-f4ceaf8ed062": {
+          "type": "announcement",
+          "settings": {
+            "text": "Elevate every smile with the power of hemp & Dead Sea's healing touch.",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "b60f0ca0-08c0-4281-a311-237cd3eed655"
+        "b60f0ca0-08c0-4281-a311-237cd3eed655",
+        "75c701f6-6fda-47cd-b5e7-f4ceaf8ed062"
       ],
       "settings": {
         "color_scheme": "accent-1",
