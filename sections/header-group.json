@@ -32,13 +32,21 @@
             "text": "Nature's ultimate duo for pristine oral health awaits. Dive into the hemp & Dead Sea revolution!",
             "link": ""
           }
+        },
+        "eb71b8d7-252b-48b2-b3d8-2cdde1377a7a": {
+          "type": "announcement",
+          "settings": {
+            "text": "Why settle for ordinary? Embrac e the extraordinary blend of hemp & Dead Sea minerals",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
         "b60f0ca0-08c0-4281-a311-237cd3eed655",
         "75c701f6-6fda-47cd-b5e7-f4ceaf8ed062",
-        "6c3c6b4b-3c6f-4d45-a3f2-e4239f9e64c2"
+        "6c3c6b4b-3c6f-4d45-a3f2-e4239f9e64c2",
+        "eb71b8d7-252b-48b2-b3d8-2cdde1377a7a"
       ],
       "settings": {
         "color_scheme": "accent-1",
