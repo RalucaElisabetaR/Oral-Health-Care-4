@@ -11,10 +11,18 @@
             "text": "Unleash nature's secret for a radiant smile! Dive into hemp & Dead Sea minerals.",
             "link": ""
           }
+        },
+        "b60f0ca0-08c0-4281-a311-237cd3eed655": {
+          "type": "announcement",
+          "settings": {
+            "text": "Experience oral care reimagined — Where hemp meets Dead Sea magic",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "b60f0ca0-08c0-4281-a311-237cd3eed655"
       ],
       "settings": {
         "color_scheme": "accent-1",
