@@ -23,7 +23,7 @@
             "button_label_1": "Button label",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -51,121 +51,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slide-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/STOP.png",
-            "heading": "TRANSFORM YOUR SMILE",
-            "heading_size": "h2",
-            "subheading": "Expertly formulated by Dr. Veronica Stahl, our innovative STOP products combine the power of Dead Sea Salt and plant infusions to reduce tooth sensitivity, alleviate inflammation, whiten teeth, and effectively combat dental plaque and bacteria.",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-2",
-            "text_alignment_mobile": "left"
-          }
-        },
-        "823c9e11-4d73-4426-8da1-8dd781605d1f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_ae3d50bf-c6a6-440c-83be-fe4927ffef0f.png",
-            "heading": "Experience oral care reimagined",
-            "heading_size": "h1",
-            "subheading": "Where hemp meets Dead Sea magic",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-2",
-            "text_alignment_mobile": "left"
-          }
-        },
-        "8a8fe684-5e29-425c-9d48-bc7fc56ec3c9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/STOP.png",
-            "heading": "Elevate every smile with the power of hemp & Dead Sea's healing touch.",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Dive In & ShopNow",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-2",
-            "text_alignment_mobile": "left"
-          }
-        },
-        "fcf6a4aa-0bdb-47ac-a621-03fe008d6c7b": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/STOP.png",
-            "heading": "Nature's ultimate duo for pristine oral health awaits.",
-            "heading_size": "h1",
-            "subheading": "Dive into the hemp & Dead Sea revolution!",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-2",
-            "text_alignment_mobile": "left"
-          }
-        },
-        "c62076b1-2cde-4709-8de8-70c9a1e1b7bf": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/STOP.png",
-            "heading": "Embrace the extraordinary blend of hemp & Dead Sea minerals.",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-2",
-            "text_alignment_mobile": "left"
-          }
-        }
-      },
-      "block_order": [
-        "slide-0",
-        "823c9e11-4d73-4426-8da1-8dd781605d1f",
-        "8a8fe684-5e29-425c-9d48-bc7fc56ec3c9",
-        "fcf6a4aa-0bdb-47ac-a621-03fe008d6c7b",
-        "c62076b1-2cde-4709-8de8-70c9a1e1b7bf"
-      ],
-      "custom_css": [
-        ".slideshow__slide {animation: fadeIn 1s linear;}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 7,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": ""
       }
     },
     "ee84acdf-ba27-40ad-a4d4-68e5464cfc11": {
@@ -321,7 +206,6 @@
   },
   "order": [
     "bec034c4-4a9f-47e5-8395-7026f93039b9",
-    "slideshow",
     "ee84acdf-ba27-40ad-a4d4-68e5464cfc11",
     "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23",
     "featured-collection-0"
