@@ -6,9 +6,10 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "heading": "Browse our latest products",
+            "image": "shopify:\/\/shop_images\/STOP.png",
+            "heading": "Unleash nature's secret for a radiant smile!",
             "heading_size": "h1",
-            "subheading": "",
+            "subheading": "Dive into hemp & Dead Sea minerals",
             "button_label": "Shop all",
             "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
