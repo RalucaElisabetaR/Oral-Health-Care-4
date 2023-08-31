@@ -56,12 +56,31 @@
             "color_scheme": "background-2",
             "text_alignment_mobile": "left"
           }
+        },
+        "fcf6a4aa-0bdb-47ac-a621-03fe008d6c7b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STOP.png",
+            "heading": "Nature's ultimate duo for pristine oral health awaits.",
+            "heading_size": "h1",
+            "subheading": "Dive into the hemp & Dead Sea revolution!",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
         }
       },
       "block_order": [
         "slide-0",
         "823c9e11-4d73-4426-8da1-8dd781605d1f",
-        "8a8fe684-5e29-425c-9d48-bc7fc56ec3c9"
+        "8a8fe684-5e29-425c-9d48-bc7fc56ec3c9",
+        "fcf6a4aa-0bdb-47ac-a621-03fe008d6c7b"
       ],
       "settings": {
         "layout": "full_bleed",
