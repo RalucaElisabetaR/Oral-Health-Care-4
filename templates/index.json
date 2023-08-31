@@ -38,11 +38,30 @@
             "color_scheme": "background-2",
             "text_alignment_mobile": "left"
           }
+        },
+        "8a8fe684-5e29-425c-9d48-bc7fc56ec3c9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STOP.png",
+            "heading": "Elevate every smile with the power of hemp & Dead Sea's healing touch.",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Dive In & ShopNow",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
         }
       },
       "block_order": [
         "slide-0",
-        "823c9e11-4d73-4426-8da1-8dd781605d1f"
+        "823c9e11-4d73-4426-8da1-8dd781605d1f",
+        "8a8fe684-5e29-425c-9d48-bc7fc56ec3c9"
       ],
       "settings": {
         "layout": "full_bleed",
