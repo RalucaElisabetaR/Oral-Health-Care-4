@@ -22,6 +22,9 @@
         display: block;
       }
     }
+      .banner__box {
+    background-color: rgba(0, 173, 239, {{ section.settings.banner_box_opacity | divided_by: 100.0 }});
+  }
   {%- endstyle -%}
 {%- endif -%}
 
@@ -263,6 +266,16 @@
       ],
       "default": "full_bleed",
       "label": "t:sections.slideshow.settings.layout.label"
+    },
+        {
+      "type": "range",
+      "id": "banner_box_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "t:sections.image-banner.settings.banner_box_opacity.label",
+      "default": 100
     },
     {
       "type": "select",
