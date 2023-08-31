@@ -22,9 +22,7 @@
         display: block;
       }
     }
-      .banner__box {
-    background-color: rgba(0, 173, 239, {{ section.settings.banner_box_opacity | divided_by: 100.0 }});
-  }
+
   {%- endstyle -%}
 {%- endif -%}
 
@@ -121,6 +119,9 @@
         #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
+              .banner__box {
+    background-color: rgba(0, 173, 239, {{ section.settings.banner_box_opacity | divided_by: 100.0 }});
+  }
       </style>
       <div
         class="slideshow__slide grid__item grid--1-col slider__slide "
