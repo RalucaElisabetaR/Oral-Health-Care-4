@@ -112,34 +112,6 @@
         "accessibility_info": ""
       }
     },
-    "featured-collection-0": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 3,
-        "columns_desktop": 2,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "ee84acdf-ba27-40ad-a4d4-68e5464cfc11": {
       "type": "custom_slideshow",
       "blocks": {
@@ -253,6 +225,34 @@
         "accessibility_info": ""
       }
     },
+    "featured-collection-0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 3,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23": {
       "type": "custom-liquid",
       "settings": {
@@ -265,8 +265,8 @@
   },
   "order": [
     "slideshow",
-    "featured-collection-0",
     "ee84acdf-ba27-40ad-a4d4-68e5464cfc11",
+    "featured-collection-0",
     "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23"
   ]
 }
