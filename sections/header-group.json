@@ -25,12 +25,20 @@
             "text": "Elevate every smile with the power of hemp & Dead Sea's healing touch.",
             "link": ""
           }
+        },
+        "6c3c6b4b-3c6f-4d45-a3f2-e4239f9e64c2": {
+          "type": "announcement",
+          "settings": {
+            "text": "Nature's ultimate duo for pristine oral health awaits. Dive into the hemp & Dead Sea revolution!",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
         "b60f0ca0-08c0-4281-a311-237cd3eed655",
-        "75c701f6-6fda-47cd-b5e7-f4ceaf8ed062"
+        "75c701f6-6fda-47cd-b5e7-f4ceaf8ed062",
+        "6c3c6b4b-3c6f-4d45-a3f2-e4239f9e64c2"
       ],
       "settings": {
         "color_scheme": "accent-1",
