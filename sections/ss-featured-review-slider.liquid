@@ -1,6 +1,6 @@
 <link
-  rel='stylesheet'
-  href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
 >
 {% style %}
   [data-review-quote-slider-target] p {
@@ -23,7 +23,7 @@
 
 <script
   async
-  src='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js'
+  src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
 ></script>
 
 <script>
@@ -50,18 +50,22 @@
   });
 </script>
 
+ 
+  <div data-review-quote-slider-target></div>
+
+
 <template data-review-quote-slider>
-  <div class='custom-swiper-container {{ section.settings.custom_classes }}'>
-    <div class='swiper'>
-      <div class='swiper-wrapper'>
+  <div class="custom-swiper-container {{ section.settings.custom_classes }}">
+    <div class="swiper">
+      <div class="swiper-wrapper">
         {% for block in section.blocks %}
-          <div class='swiper-slide'>
+          <div class="swiper-slide">
             {{ block.settings.quote }}
           </div>
         {% endfor %}
       </div>
 
-      <div class='swiper-pagination'></div>
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 </template>
@@ -71,7 +75,7 @@
   "name": "SS - Review Slider",
   "settings": [
     {
-      "type": "textarea",
+      "type": "html",
       "id": "example",
       "label": "Target example",
       "default": "<div data-review-quote-slider-target><\/div>",
