@@ -156,19 +156,19 @@
         "a4d916f1-b07d-4fb9-86d8-f1e3fbf51e5d"
       ],
       "custom_css": [
-        ".sections-ai-slideshow-carousel {display: flex; }",
-        ".sections-ai-slideshow {margin:auto; overflow:hidden;}"
+        ".sections-ai-slideshow-carousel {display: flex; margin: auto;}",
+        ".sections-ai-slideshow-block {margin: auto; max-width: 32%;}"
       ],
       "settings": {
         "text_color": "#111111",
         "background_color": "transparent",
         "caption_background_color": "#ffffff",
         "indicator_color": "#111111",
-        "max_width": 1000,
+        "max_width": 1200,
         "padding_top": 25,
         "padding_bottom": 25,
-        "padding_left": 10,
-        "padding_right": 10
+        "padding_left": 0,
+        "padding_right": 0
       }
     }
   },
