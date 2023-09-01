@@ -22,8 +22,8 @@
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -38,10 +38,10 @@
         "image": "shopify:\/\/shop_images\/STOP.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -63,7 +63,7 @@
           "settings": {
             "button_label": "Shop now",
             "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },
