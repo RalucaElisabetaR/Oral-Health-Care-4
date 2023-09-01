@@ -154,13 +154,13 @@
         ".content-container {border-radius: 20px; background-color: white; display: block; height: 100% !important; padding: 7% 5% 7% 5%;}",
         ".slideshow__text-wrapper {padding: 1rem;}",
         "h3 {font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 1.6em;}",
-        "p {font-size: 15px;line-height: 1.9em;}"
+        "p {font-size: 15px; line-height: 1.9em;}"
       ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "dots",
-        "auto_rotate": true,
+        "auto_rotate": false,
         "change_slides_speed": 3,
         "image_behavior": "none",
         "show_text_below": true,
