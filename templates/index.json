@@ -243,7 +243,7 @@
         "pagination_color": "#bdbdbd",
         "bg_color": "rgba(0,0,0,0)",
         "text_color": "#d87e71",
-        "border_radius": 32,
+        "border_radius": 21,
         "font_size": 16,
         "custom_classes": ""
       }
