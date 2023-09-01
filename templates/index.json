@@ -204,7 +204,7 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div data-review-quote-slider-target><\/div>",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -248,9 +248,9 @@
       ],
       "settings": {
         "example": "",
-        "pagination_color": "#db877b",
-        "bg_color": "#f4d9d5",
-        "text_color": "#d87e71",
+        "pagination_color": "#a6a6a6",
+        "bg_color": "#fff",
+        "text_color": "#616161",
         "border_radius": 32,
         "font_size": 16,
         "custom_classes": ""
