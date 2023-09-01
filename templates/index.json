@@ -198,7 +198,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div data-review-quote-slider-target><\/div> \n\n<style>\n#swiper-wrapper-c8a103b531fdea7a7 > div.swiper-slide {\n  width: 33%!important;\n}\n <\/style>",
+        "custom_liquid": "<div data-review-quote-slider-target><\/div> \n\n<style>\ndiv.swiper-slide {\n  width: 33%!important;\n}\n <\/style>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
