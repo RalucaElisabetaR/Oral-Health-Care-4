@@ -3,7 +3,23 @@
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
 >
 {% style %}
- 
+  [data-review-quote-slider-target] p {
+    margin: 0;
+    text-align: center;
+  }
+  [data-review-quote-slider-target] .swiper {
+    padding-bottom: 60px;
+    --swiper-pagination-color: {{ section.settings.pagination_color }};
+    --swiper-pagination-bullet-inactive-color: {{ section.settings.pagination_color }};
+    color: {{ section.settings.text_color }};
+    font-size: {{ section.settings.font_size }}px;
+  }
+  [data-review-quote-slider-target] .custom-swiper-container {
+    background-color: {{ section.settings.bg_color }};
+    border-radius: {{ section.settings.border_radius }}px;
+    padding: 3rem 3rem 1.5rem;
+  }
+
   
 .custom-swiper-container {
     position:relative;
@@ -34,7 +50,7 @@
 }
 
 {% endstyle %}
-
+  <div data-review-quote-slider-target></div>
 <script
   defer
   src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
