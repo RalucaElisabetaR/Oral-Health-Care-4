@@ -251,6 +251,15 @@
         "custom_classes": ""
       }
     },
+    "e6ff3ffb-5716-434a-bee7-d78a933763e8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div data-review-quote-slider-target><\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "c7e2790c-6791-44fb-8776-6ca964472fd7": {
       "type": "ss-featured-review-slider",
       "blocks": {
@@ -287,15 +296,6 @@
         "font_size": 16,
         "custom_classes": ""
       }
-    },
-    "e6ff3ffb-5716-434a-bee7-d78a933763e8": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div data-review-quote-slider-target><\/div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -305,7 +305,7 @@
     "image-with-text",
     "fd34b8f7-881a-4db9-a1d7-8c9360e75f43",
     "7f1fe3a4-4e93-47c7-b707-9ce7edeee125",
-    "c7e2790c-6791-44fb-8776-6ca964472fd7",
-    "e6ff3ffb-5716-434a-bee7-d78a933763e8"
+    "e6ff3ffb-5716-434a-bee7-d78a933763e8",
+    "c7e2790c-6791-44fb-8776-6ca964472fd7"
   ]
 }
