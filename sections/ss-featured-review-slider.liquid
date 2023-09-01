@@ -50,8 +50,10 @@
   });
 </script>
 
-
-
+{%- comment -%}
+  Add this to target location:
+  <div data-review-quote-slider-target></div>
+{%- endcomment -%}
 
 <template data-review-quote-slider>
   <div class="custom-swiper-container {{ section.settings.custom_classes }}">
@@ -74,7 +76,7 @@
   "name": "SS - Review Slider",
   "settings": [
     {
-      "type": "text",
+      "type": "textarea",
       "id": "example",
       "label": "Target example",
       "default": "<div data-review-quote-slider-target><\/div>",
