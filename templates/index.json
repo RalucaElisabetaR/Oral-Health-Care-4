@@ -240,8 +240,8 @@
       ],
       "settings": {
         "example": "",
-        "pagination_color": "#db877b",
-        "bg_color": "#f4d9d5",
+        "pagination_color": "#bdbdbd",
+        "bg_color": "rgba(0,0,0,0)",
         "text_color": "#d87e71",
         "border_radius": 32,
         "font_size": 16,
