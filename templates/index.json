@@ -24,6 +24,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/shopify_products_pic.png",
         "height": "large",
         "desktop_image_width": "large",
         "layout": "text_first",
@@ -31,7 +32,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "background-2",
-        "image_behavior": "none",
+        "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
