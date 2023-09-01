@@ -102,17 +102,58 @@
         "6f695eb7-c32b-4e1f-ab32-b0984be2ec20"
       ],
       "custom_css": [
-        ".sections-ai-fun-col{height: 500px; width: 100%;}"
+        ".sections-ai-fun-col {height: 500px; width: 100%;}"
       ],
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
         "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
         "cover_opacity": 25,
         "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "button_text_color": "#fff",
-        "text_color": "#fff",
+        "button_text_color": "#ffffff",
+        "text_color": "#ffffff",
         "max_width": 1000,
         "grid_gap": 0,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10
+      }
+    },
+    "c62d68d6-dcfa-4141-aee4-2daae75671d9": {
+      "type": "ai-slideshow-custom",
+      "blocks": {
+        "37e7da57-ae16-42d1-9ecd-be4d1fc9ca3c": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/shopify_products_pic.png",
+            "slide_text": "",
+            "cta_text": "Lets go →",
+            "cta_link": ""
+          }
+        },
+        "70dc9dcc-c45d-418d-965b-d1b9cb5b30c2": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/STOP.png",
+            "slide_text": "",
+            "cta_text": "Lets go →",
+            "cta_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "37e7da57-ae16-42d1-9ecd-be4d1fc9ca3c",
+        "70dc9dcc-c45d-418d-965b-d1b9cb5b30c2"
+      ],
+      "custom_css": [
+        "#sections-ai-slideshow-carousel-links-template--20837676974387__c62d68d6-dcfa-4141-aee4-2daae75671d9 {display: inline-block;}"
+      ],
+      "settings": {
+        "text_color": "#111",
+        "background_color": "transparent",
+        "caption_background_color": "#fff",
+        "indicator_color": "#111",
+        "max_width": 1001,
         "padding_top": 25,
         "padding_bottom": 25,
         "padding_left": 10,
@@ -123,6 +164,7 @@
   "order": [
     "image-with-text",
     "featured-collection",
-    "62df8f65-1793-413e-a178-de669e56288e"
+    "62df8f65-1793-413e-a178-de669e56288e",
+    "c62d68d6-dcfa-4141-aee4-2daae75671d9"
   ]
 }
