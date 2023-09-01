@@ -104,6 +104,9 @@
         "eccbde26-e668-49f9-afc9-70e30539e927",
         "b7e56ec6-19ef-442f-bdbf-543f268f544c"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
@@ -119,6 +122,15 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "8dfff5b6-8fa6-4b40-8e4a-2848b1b4b18c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n#Slider-template--20837676974387__c719a73c-1e56-4470-9c06-6b634a5bb92d {\n        display: inline-flex;\n    flex-direction: row;\n    flex-wrap: nowrap;\n    justify-content: flex-start;\n    align-items: center;\n    align-content: center;\n  }\n\n<\/style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "featured-collection": {
@@ -191,6 +203,7 @@
   "order": [
     "cb98631f-27ac-4c5b-99a7-e6bb8911cd34",
     "c719a73c-1e56-4470-9c06-6b634a5bb92d",
+    "8dfff5b6-8fa6-4b40-8e4a-2848b1b4b18c",
     "featured-collection",
     "image-with-text"
   ]
