@@ -109,7 +109,7 @@
         ".slider {position: relative; flex-wrap: inherit; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scroll-padding-left: 1.5rem; -webkit-overflow-scrolling: touch; margin-bottom: 1rem;}"
       ],
       "settings": {
-        "title": "<script>\nconst swiper = new Swiper('.swiper', {\n  \/\/ Optional parameters\n  direction: 'vertical',\n  loop: true,\n\n  \/\/ If we need pagination\n  pagination: {\n    el: '.swiper-pagination',\n  },\n\n  \/\/ Navigation arrows\n  navigation: {\n    nextEl: '.swiper-button-next',\n    prevEl: '.swiper-button-prev',\n  },\n\n  \/\/ And if we need scrollbar\n  scrollbar: {\n    el: '.swiper-scrollbar',\n  },\n});\n\n\n<\/script>",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -200,48 +200,13 @@
         "padding_bottom": 0
       }
     },
-    "ec7219ea-33c6-4833-9151-d004c97dd1f0": {
-      "type": "ss-featured-review-slider",
-      "blocks": {
-        "template--20837676974387__ec7219ea-33c6-4833-9151-d004c97dd1f0-quote-1": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>This rug is such good quality and makes me so happy every time I look at it.  I'm using this one for a top cover over my bedspread. It's a perfect  match for my room and linen. I have another that I use as a throw  for the lounge and a picnic rug! In LOVE.<\/p><p>- Barbara W.<\/p>"
-          }
-        },
-        "template--20837676974387__ec7219ea-33c6-4833-9151-d004c97dd1f0-quote-2": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>\"<\/p><p>The postage was incredibly quick and the quality and colours far exceeded what I thought. The pics don't do them justice. Truly unique rugs that I doubt will date anytime soon. I would recommend - beautiful rug and great customer service. <\/p><p>- Tanya E.<\/p>"
-          }
-        },
-        "template--20837676974387__ec7219ea-33c6-4833-9151-d004c97dd1f0-quote-3": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>\"<\/p><p>My husband argued with me saying we didn’t need a new blanket. Once we received this one, he quickly changed his tune. It’s cozy, soft and warm. I love the design and boho vibe it adds to our home. High quality product at an affordable price.<\/p><p>- Bebe H.<\/p>"
-          }
-        },
-        "479a2153-a6ca-4ae6-aac6-8b9f2588c90b": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>`wefgawregsrthdtyjh<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20837676974387__ec7219ea-33c6-4833-9151-d004c97dd1f0-quote-1",
-        "template--20837676974387__ec7219ea-33c6-4833-9151-d004c97dd1f0-quote-2",
-        "template--20837676974387__ec7219ea-33c6-4833-9151-d004c97dd1f0-quote-3",
-        "479a2153-a6ca-4ae6-aac6-8b9f2588c90b"
-      ],
+    "fd34b8f7-881a-4db9-a1d7-8c9360e75f43": {
+      "type": "custom-liquid",
       "settings": {
-        "example": "<div data-review-quote-slider-target><\/div>",
-        "pagination_color": "#db877b",
-        "bg_color": "#f4d9d5",
-        "text_color": "#d87e71",
-        "border_radius": 32,
-        "font_size": 16,
-        "custom_classes": ""
+        "custom_liquid": "<div data-review-quote-slider-target><\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -251,6 +216,6 @@
     "8dfff5b6-8fa6-4b40-8e4a-2848b1b4b18c",
     "featured-collection",
     "image-with-text",
-    "ec7219ea-33c6-4833-9151-d004c97dd1f0"
+    "fd34b8f7-881a-4db9-a1d7-8c9360e75f43"
   ]
 }
