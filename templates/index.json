@@ -109,7 +109,7 @@
         ".slider {position: relative; flex-wrap: inherit; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scroll-padding-left: 1.5rem; -webkit-overflow-scrolling: touch; margin-bottom: 1rem;}"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
