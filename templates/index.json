@@ -198,7 +198,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div data-review-quote-slider-target><\/div>",
+        "custom_liquid": "",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -239,7 +239,7 @@
         "090610a0-f645-4dad-b3fc-dcf6313de961"
       ],
       "settings": {
-        "example": "",
+        "example": "<div data-review-quote-slider-target><\/div>",
         "pagination_color": "#bdbdbd",
         "bg_color": "rgba(0,0,0,0)",
         "text_color": "#d87e71",
