@@ -259,26 +259,29 @@
     "f8a1c242-054c-4193-812b-7a579ba7e928": {
       "type": "collage",
       "blocks": {
+        "9f192a69-08e6-4e6d-b5c2-25155bcd0e5e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mouthwashOCproducts.png"
+          }
+        },
         "template--20837676974387__f8a1c242-054c-4193-812b-7a579ba7e928-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/oralsprayOC.png"
           }
         },
         "2cc51cec-8575-418c-83bc-27a832a20dbe": {
           "type": "image",
           "settings": {
-          }
-        },
-        "9f192a69-08e6-4e6d-b5c2-25155bcd0e5e": {
-          "type": "image",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/StopToothpasteOCproducts.png"
           }
         }
       },
       "block_order": [
+        "9f192a69-08e6-4e6d-b5c2-25155bcd0e5e",
         "template--20837676974387__f8a1c242-054c-4193-812b-7a579ba7e928-image-1",
-        "2cc51cec-8575-418c-83bc-27a832a20dbe",
-        "9f192a69-08e6-4e6d-b5c2-25155bcd0e5e"
+        "2cc51cec-8575-418c-83bc-27a832a20dbe"
       ],
       "settings": {
         "heading": "Multimedia collage",
