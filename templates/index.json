@@ -105,8 +105,8 @@
         "b7e56ec6-19ef-442f-bdbf-543f268f544c"
       ],
       "custom_css": [
-        ".grid--2-col-tablet.slider--everywhere .multicolumn-list__item {margin-top: 0; }",
-        " .multicolumn .slider--everywhere+.slider-buttons {display: flex; }"
+        ".grid--2-col-tablet.slider--everywhere .multicolumn-list__item {margin-top: 0;}",
+        ".multicolumn .slider--everywhere + .slider-buttons {display: flex;}"
       ],
       "settings": {
         "title": "",
@@ -121,6 +121,7 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "swipe_on_desktop": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
