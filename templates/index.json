@@ -105,7 +105,7 @@
         "b7e56ec6-19ef-442f-bdbf-543f268f544c"
       ],
       "custom_css": [
-
+        ".slider {position: relative; flex-wrap: inherit; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scroll-padding-left: 1.5rem; -webkit-overflow-scrolling: touch; margin-bottom: 1rem;}"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -127,7 +127,7 @@
     "8dfff5b6-8fa6-4b40-8e4a-2848b1b4b18c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n#Slider-template--20837676974387__c719a73c-1e56-4470-9c06-6b634a5bb92d {\n\noverflow: hidden;\n        display: inline-flex;\n    flex-direction: row;\n    flex-wrap: nowrap;\n    justify-content: flex-start;\n    align-items: center;\n    align-content: center;\n  }\n\n<\/style>",
+        "custom_liquid": "<style>\n {}\n\n #Slider-template--20837676974387__c719a73c-1e56-4470-9c06-6b634a5bb92d .no-js slider-component .slider {\n    padding-bottom: 3rem;\n  }\n}\n\n#Slider-template--20837676974387__c719a73c-1e56-4470-9c06-6b634a5bb92d \n#Slider-template--20837676974387__c719a73c-1e56-4470-9c06-6b634a5bb92d .slider__slide[aria-hidden=\"true\"] {\n  visibility: hidden;\n}\n\n\n \n  \/* Fix to show some space at the end of our sliders in all browsers *\/\n  .slider--mobile:after {\n    content: '';\n    width: 0;\n    padding-left: 1.5rem;\n  }\n\n  .slider.slider--mobile .slider__slide {\n    margin-bottom: 0;\n    padding-top: max(var(--focus-outline-padding), var(--shadow-padding-top));\n    padding-bottom: max(var(--focus-outline-padding), var(--shadow-padding-bottom));\n  }\n\n  .slider.slider--mobile.contains-card--standard .slider__slide:not(.collection-list__item--no-media) {\n    padding-bottom: var(--focus-outline-padding);\n  }\n\n\n\n<\/style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
