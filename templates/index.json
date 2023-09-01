@@ -64,10 +64,42 @@
         "padding_top": 56,
         "padding_bottom": 68
       }
+    },
+    "62df8f65-1793-413e-a178-de669e56288e": {
+      "type": "ai-products",
+      "blocks": {
+        "c0e3426a-b571-4724-96f6-42eea24e8387": {
+          "type": "feature",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/oralsprayOC.png",
+            "headline": "Feature Headline",
+            "cta": "Shop Now",
+            "cta_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c0e3426a-b571-4724-96f6-42eea24e8387"
+      ],
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
+        "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
+        "cover_opacity": 25,
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#fff",
+        "text_color": "#fff",
+        "max_width": 1000,
+        "grid_gap": 0,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10
+      }
     }
   },
   "order": [
     "image-with-text",
-    "featured-collection"
+    "featured-collection",
+    "62df8f65-1793-413e-a178-de669e56288e"
   ]
 }
