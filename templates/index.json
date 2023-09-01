@@ -76,10 +76,30 @@
             "cta": "Shop Now",
             "cta_link": ""
           }
+        },
+        "5d4c2518-0148-48dd-abcc-363e3b003bf6": {
+          "type": "feature",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/StopToothpasteOCproducts.png",
+            "headline": "Feature Headline",
+            "cta": "Shop Now",
+            "cta_link": ""
+          }
+        },
+        "6f695eb7-c32b-4e1f-ab32-b0984be2ec20": {
+          "type": "feature",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/mouthwashOCproducts.png",
+            "headline": "Feature Headline",
+            "cta": "Shop Now",
+            "cta_link": ""
+          }
         }
       },
       "block_order": [
-        "c0e3426a-b571-4724-96f6-42eea24e8387"
+        "c0e3426a-b571-4724-96f6-42eea24e8387",
+        "5d4c2518-0148-48dd-abcc-363e3b003bf6",
+        "6f695eb7-c32b-4e1f-ab32-b0984be2ec20"
       ],
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
