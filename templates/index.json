@@ -227,7 +227,8 @@
     "featured-collection-0": {
       "type": "featured-collection",
       "custom_css": [
-        ".product-card-wrapper .card {background-color: white;}"
+        ".product-card-wrapper .card {background-color: white;}",
+        ".button {background-color: white;}"
       ],
       "settings": {
         "title": "Our products",
