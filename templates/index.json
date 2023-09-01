@@ -157,7 +157,7 @@
         "a4d916f1-b07d-4fb9-86d8-f1e3fbf51e5d"
       ],
       "custom_css": [
-        ".sections-ai-slideshow-carousel {display: flex; flex-wrap: nowrap; width: 100%; overflow: visible; margin: auto;}"
+        ".sections-ai-slideshow-carousel {display: flex; flex-wrap: nowrap; }"
       ],
       "settings": {
         "text_color": "#111111",
