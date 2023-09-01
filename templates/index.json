@@ -139,55 +139,31 @@
             "cta_text": "Lets go →",
             "cta_link": ""
           }
+        },
+        "a4d916f1-b07d-4fb9-86d8-f1e3fbf51e5d": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/STOP.png",
+            "slide_text": "",
+            "cta_text": "Lets go →",
+            "cta_link": ""
+          }
         }
       },
       "block_order": [
         "37e7da57-ae16-42d1-9ecd-be4d1fc9ca3c",
-        "70dc9dcc-c45d-418d-965b-d1b9cb5b30c2"
+        "70dc9dcc-c45d-418d-965b-d1b9cb5b30c2",
+        "a4d916f1-b07d-4fb9-86d8-f1e3fbf51e5d"
       ],
       "custom_css": [
-        ".sections-ai-slideshow-carousel {display: flex;}"
+        ".sections-ai-slideshow-carousel {display: flex; }",
+        ".sections-ai-slideshow {margin:auto; overflow:hidden;}"
       ],
       "settings": {
-        "text_color": "#111",
+        "text_color": "#111111",
         "background_color": "transparent",
-        "caption_background_color": "#fff",
-        "indicator_color": "#111",
-        "max_width": 1000,
-        "padding_top": 25,
-        "padding_bottom": 25,
-        "padding_left": 10,
-        "padding_right": 10
-      }
-    },
-    "b5e0444c-26d3-4953-9d97-51b116ed022a": {
-      "type": "ai-tabs",
-      "blocks": {
-        "96414f33-b9fe-464b-ae8c-843439badba6": {
-          "type": "tab",
-          "settings": {
-            "tab_name": "zfdgdrfg",
-            "tab_content": "<p>fdbzfg<\/p>"
-          }
-        },
-        "148d1636-dd17-417d-8198-9b84fb255dde": {
-          "type": "tab",
-          "settings": {
-            "tab_name": "dfbdf",
-            "tab_content": "<p>dfbfb<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "96414f33-b9fe-464b-ae8c-843439badba6",
-        "148d1636-dd17-417d-8198-9b84fb255dde"
-      ],
-      "settings": {
-        "text_color": "#111",
-        "background_color": "transparent",
-        "tab_active_color": "#111",
-        "tab_inactive_color": "#888",
-        "tab_border_color": "#ddd",
+        "caption_background_color": "#ffffff",
+        "indicator_color": "#111111",
         "max_width": 1000,
         "padding_top": 25,
         "padding_bottom": 25,
@@ -200,7 +176,6 @@
     "image-with-text",
     "featured-collection",
     "62df8f65-1793-413e-a178-de669e56288e",
-    "c62d68d6-dcfa-4141-aee4-2daae75671d9",
-    "b5e0444c-26d3-4953-9d97-51b116ed022a"
+    "c62d68d6-dcfa-4141-aee4-2daae75671d9"
   ]
 }
