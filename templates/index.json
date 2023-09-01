@@ -24,7 +24,8 @@
         "button"
       ],
       "settings": {
-        "height": "large",
+        "image": "shopify:\/\/shop_images\/shopify_products_pic.png",
+        "height": "adapt",
         "desktop_image_width": "large",
         "layout": "text_first",
         "desktop_content_position": "middle",
