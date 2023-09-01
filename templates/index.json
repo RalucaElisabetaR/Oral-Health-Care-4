@@ -158,7 +158,7 @@
       ],
       "custom_css": [
         ".sections-ai-slideshow-carousel {display: flex; flex-wrap: nowrap; width: 100%; overflow: visible; margin: auto;}",
-        "div .sections-ai-slideshow-block {max-width: 31%; overflow: visible; margin: auto;}"
+        "div .sections-ai-slideshow-block {width: 100%; margin:10px; overflow: visible; }"
       ],
       "settings": {
         "text_color": "#111111",
