@@ -175,6 +175,55 @@
         "padding_bottom": 0
       }
     },
+    "6b1cb146-980d-4e3d-b397-e611769b2250": {
+      "type": "image-banner",
+      "blocks": {
+        "f7345d09-5625-4711-8322-98eb9f717c1e": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Transform Your Smile<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "f6c1b9d7-38fc-4a14-b0e7-6ccd52ef7285": {
+          "type": "text",
+          "settings": {
+            "text": "Experience oral care reimagined - Where hemp meets Dead Sea magic.",
+            "text_style": "body"
+          }
+        },
+        "a7993fe4-7c0e-45a3-b558-080f94763906": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "f7345d09-5625-4711-8322-98eb9f717c1e",
+        "f6c1b9d7-38fc-4a14-b0e7-6ccd52ef7285",
+        "a7993fe4-7c0e-45a3-b558-080f94763906"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_ae3d50bf-c6a6-440c-83be-fe4927ffef0f.png",
+        "image_overlay_opacity": 0,
+        "banner_box_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "right",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
@@ -190,7 +239,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -208,6 +257,7 @@
     "bec034c4-4a9f-47e5-8395-7026f93039b9",
     "ee84acdf-ba27-40ad-a4d4-68e5464cfc11",
     "d36b2dc2-1ae2-4903-81f0-96a2f92fcb23",
+    "6b1cb146-980d-4e3d-b397-e611769b2250",
     "featured-collection-0"
   ]
 }
