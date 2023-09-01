@@ -105,8 +105,8 @@
         "b7e56ec6-19ef-442f-bdbf-543f268f544c"
       ],
       "custom_css": [
-        "{margin: 0; padding: 0;}",
-        ".slider {position: relative; flex-wrap: inherit; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scroll-padding-left: 1.5rem; -webkit-overflow-scrolling: touch; margin-bottom: 1rem;}"
+        ".grid--2-col-tablet.slider--everywhere .multicolumn-list__item {margin-top: 0; }",
+        " .multicolumn .slider--everywhere+.slider-buttons {display: flex; }"
       ],
       "settings": {
         "title": "",
