@@ -35,6 +35,7 @@
         "template--20837676974387__cb98631f-27ac-4c5b-99a7-e6bb8911cd34-buttons-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/STOP.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
