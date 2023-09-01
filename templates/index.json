@@ -259,7 +259,7 @@
     "a3b67ff6-1dc5-49c7-ba0c-7603e8a211db": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div data-review-quote-slider-target><\/div>",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
