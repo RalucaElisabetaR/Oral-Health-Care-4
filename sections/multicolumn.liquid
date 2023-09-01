@@ -17,18 +17,11 @@
 
 {%- liquid
   assign columns_mobile_int = section.settings.columns_mobile | plus: 0
-  assign show_mobile_slider = true
-  if section.settings.swipe_on_mobile and section.blocks.size >= columns_mobile_int
+  assign show_mobile_slider = false
+  if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
     assign show_mobile_slider = true
   endif
 -%}
-
-    <slider-component class='slider-mobile-gutter'>
-      <ul
-        class='multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop slider slider--mobile grid--peek'
-        id='Slider-{{ section.id }}'
-        role='list'
-      >
 
 <div class='multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}'>
   <div
@@ -49,6 +42,12 @@
         {%- endif -%}
       </div>
     {%- endunless -%}
+    <slider-component class='slider-mobile-gutter'>
+      <ul
+        class='multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop{% if show_mobile_slider %} slider slider--mobile grid--peek{% endif %}'
+        id='Slider-{{ section.id }}'
+        role='list'
+      >
         {%- liquid
           assign highest_ratio = 0
           for block in section.blocks
@@ -69,7 +68,7 @@
 
           <li
             id='Slide-{{ section.id }}-{{ forloop.index }}'
-            class='multicolumn-list__item grid__item slider__slide{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
+            class='multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -350,7 +349,7 @@
     {
       "type": "checkbox",
       "id": "swipe_on_mobile",
-      "default": true,
+      "default": false,
       "label": "t:sections.multicolumn.settings.swipe_on_mobile.label"
     },
     {
