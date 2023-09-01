@@ -157,8 +157,8 @@
         "a4d916f1-b07d-4fb9-86d8-f1e3fbf51e5d"
       ],
       "custom_css": [
-        ".sections-ai-slideshow-grid .sections-ai-slideshow-carousel{width: 100%; overflow: visible; margin: auto;}",
-        ".sections-ai-slideshow-block {max-width: 31%; overflow: visible; display: inline-flex; margin: auto;}"
+        ".sections-ai-slideshow-carousel {display: inline-flex; width: 100%; overflow: visible; margin: auto;}",
+        ".sections-ai-slideshow-block {max-width: 31%; overflow: visible; margin: auto;}"
       ],
       "settings": {
         "text_color": "#111111",
