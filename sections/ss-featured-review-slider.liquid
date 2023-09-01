@@ -21,16 +21,20 @@
   }
 {% endstyle %}
 
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+></script>
 
 <script>
-const swiper = new Swiper('.swiper', {
-  slidesPerView: 1,
+  document.addEventListener('DOMContentLoaded', function () {
+    const template = document.querySelector('[data-review-quote-slider]');
+    const target = document.querySelector('[data-review-quote-slider-target]');
+    if (target) {
+      target.appendChild(template.content.cloneNode(true));
+      const swiperEl = target.querySelector('.swiper');
+      new Swiper(swiperEl, {
+        slidesPerView: 1,
         spaceBetween: 0,
         loop: true,
         autoplay: {
@@ -42,29 +46,14 @@ const swiper = new Swiper('.swiper', {
         },
         speed: 1000,
       });
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
-
+    }
+  });
 </script>
 
- 
+{%- comment -%}
+  Add this to target location:
   <div data-review-quote-slider-target></div>
-
+{%- endcomment -%}
 
 <template data-review-quote-slider>
   <div class="custom-swiper-container {{ section.settings.custom_classes }}">
@@ -87,7 +76,7 @@ const swiper = new Swiper('.swiper', {
   "name": "SS - Review Slider",
   "settings": [
     {
-      "type": "html",
+      "type": "textarea",
       "id": "example",
       "label": "Target example",
       "default": "<div data-review-quote-slider-target><\/div>",
@@ -143,7 +132,7 @@ const swiper = new Swiper('.swiper', {
       "name": "Quote",
       "settings": [
         {
-          "type": "html",
+          "type": "richtext",
           "id": "quote",
           "label": "Review Quote",
           "info": "Enter the review quote here."
