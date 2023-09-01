@@ -1,7 +1,6 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
-
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -15,49 +14,6 @@
     }
   }
 {%- endstyle -%}
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-<script>
-const swiper = new Swiper('.swiper', {
-  slidesPerView: 1,
-  direction: 'horizontal',
-        spaceBetween: 0,
-        loop: true,
-        autoplay: {
-          delay: 6000,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        speed: 1000,
-      });
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
-
-</script>
-
-
 
 {%- liquid
   assign columns_mobile_int = section.settings.columns_mobile | plus: 0
@@ -88,7 +44,7 @@ const swiper = new Swiper('.swiper', {
     {%- endunless -%}
     <slider-component class="slider-mobile-gutter">
       <ul
-        class=" swiper
+        class="
           multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop{% if section.settings.swipe_on_mobile or section.settings.swipe_on_desktop %} slider {% endif %}{% if section.settings.swipe_on_mobile and section.blocks.size > 1 %} slider--mobile grid--peek{% endif %}{% if section.settings.swipe_on_desktop and section.blocks.size > 3 %} slider--everywhere{% endif %}
         "
         id="Slider-{{ section.id }}"
@@ -111,10 +67,10 @@ const swiper = new Swiper('.swiper', {
           -%}
             {%- assign empty_column = ' multicolumn-list__item--empty' -%}
           {%- endif -%}
- <div class="swiper-wrapper">
+
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="swiper-slide multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class=" multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -188,13 +144,11 @@ const swiper = new Swiper('.swiper', {
               </div>
             </div>
           </li>
-    </div>
         {%- endfor -%}
       </ul>
 
       {%- if show_mobile_slider or section.settings.swipe_on_desktop
  -%}
-    
         <div class="slider-buttons no-js-hidden medium-hide">
           <button
             type="button"
