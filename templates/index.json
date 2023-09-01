@@ -195,10 +195,10 @@
     "fd34b8f7-881a-4db9-a1d7-8c9360e75f43": {
       "type": "custom-liquid",
       "custom_css": [
-        ".swiper-wrapper div {max-width: 33%;}"
+
       ],
       "settings": {
-        "custom_liquid": "<div data-review-quote-slider-target><\/div>",
+        "custom_liquid": "<div data-review-quote-slider-target><\/div> \n\n<style>\n#swiper-wrapper-c8a103b531fdea7a7 > div.swiper-slide {\n  max-width: 33%;\n}\n <\/style>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -224,12 +224,19 @@
           "settings": {
             "quote": "<p>\"<\/p><p>My husband argued with me saying we didn’t need a new blanket. Once we received this one, he quickly changed his tune. It’s cozy, soft and warm. I love the design and boho vibe it adds to our home. High quality product at an affordable price.<\/p><p>- Bebe H.<\/p>"
           }
+        },
+        "090610a0-f645-4dad-b3fc-dcf6313de961": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>\"<\/p><p>This rug is such good quality and makes me so happy every time I look at it.  I'm using this one for a top cover over my bedspread. It's a perfect  match for my room and linen. I have another that I use as a throw  for the lounge and a picnic rug! In LOVE.<\/p><p>- Barbara W.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--20837676974387__86091d63-3983-4060-9708-3f3aed47e00f-quote-1",
         "template--20837676974387__86091d63-3983-4060-9708-3f3aed47e00f-quote-2",
-        "template--20837676974387__86091d63-3983-4060-9708-3f3aed47e00f-quote-3"
+        "template--20837676974387__86091d63-3983-4060-9708-3f3aed47e00f-quote-3",
+        "090610a0-f645-4dad-b3fc-dcf6313de961"
       ],
       "settings": {
         "example": "",
