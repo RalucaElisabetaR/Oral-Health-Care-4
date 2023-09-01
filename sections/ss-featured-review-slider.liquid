@@ -19,6 +19,36 @@
     border-radius: {{ section.settings.border_radius }}px;
     padding: 3rem 3rem 1.5rem;
   }
+
+  
+.swiper-container {
+    position:relative;
+    width: 90vw;
+    height: 300px;
+}
+.swiper-container > .swiper-slide__content {
+  position:absolute;
+  top:0;
+}
+
+.swiper-slide {
+  height: 300px;
+  display:flex;
+  background: #eee;
+  align-items: center;
+  justify-content:center;
+  transition:all 200ms linear;
+  transform: scale(0.8);
+  
+  &.swiper-slide-active{
+    transform: scale(1);
+    background: #fc0
+  }
+}
+.swiper-slide__content {
+  height: 300px;
+}
+
 {% endstyle %}
 
 <script
@@ -27,27 +57,29 @@
 ></script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const template = document.querySelector('[data-review-quote-slider]');
-    const target = document.querySelector('[data-review-quote-slider-target]');
-    if (target) {
-      target.appendChild(template.content.cloneNode(true));
-      const swiperEl = target.querySelector('.swiper');
-      new Swiper(swiperEl, {
-        slidesPerView: 1,
-        spaceBetween: 0,
-        loop: true,
-        autoplay: {
-          delay: 6000,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        speed: 1000,
-      });
+ $(document).ready(function() {
+  // Assign some jquery elements we'll need
+  var $swiper = $(".swiper-container");
+  var $bottomSlide = null; // Slide whose content gets 'extracted' and placed
+  // into a fixed position for animation purposes
+  var $bottomSlideContent = null; // Slide content that gets passed between the
+  // panning slide stack and the position 'behind'
+  // the stack, needed for correct animation style
+
+  var mySwiper = new Swiper(".swiper-container", {
+    spaceBetween: 1,
+    slidesPerView: 3,
+    centeredSlides: true,
+    roundLengths: true,
+    loop: true,
+    loopAdditionalSlides: 30,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
     }
   });
+});
+
 </script>
 
 {%- comment -%}
