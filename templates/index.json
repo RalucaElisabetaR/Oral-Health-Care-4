@@ -226,6 +226,9 @@
     },
     "featured-collection-0": {
       "type": "featured-collection",
+      "custom_css": [
+        ".product-card-wrapper .card {background-color: white;}"
+      ],
       "settings": {
         "title": "Our products",
         "heading_size": "h2",
