@@ -192,6 +192,18 @@
         "padding_bottom": 0
       }
     },
+    "fd34b8f7-881a-4db9-a1d7-8c9360e75f43": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<div data-review-quote-slider-target><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "86091d63-3983-4060-9708-3f3aed47e00f": {
       "type": "ss-featured-review-slider",
       "blocks": {
@@ -235,18 +247,6 @@
         "font_size": 16,
         "custom_classes": ""
       }
-    },
-    "fd34b8f7-881a-4db9-a1d7-8c9360e75f43": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "<div data-review-quote-slider-target><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -254,7 +254,7 @@
     "c719a73c-1e56-4470-9c06-6b634a5bb92d",
     "featured-collection",
     "image-with-text",
-    "86091d63-3983-4060-9708-3f3aed47e00f",
-    "fd34b8f7-881a-4db9-a1d7-8c9360e75f43"
+    "fd34b8f7-881a-4db9-a1d7-8c9360e75f43",
+    "86091d63-3983-4060-9708-3f3aed47e00f"
   ]
 }
