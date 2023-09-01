@@ -109,7 +109,7 @@
         ".slider {position: relative; flex-wrap: inherit; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scroll-padding-left: 1.5rem; -webkit-overflow-scrolling: touch; margin-bottom: 1rem;}"
       ],
       "settings": {
-        "title": "",
+        "title": "<script>\nconst swiper = new Swiper('.swiper', {\n  \/\/ Optional parameters\n  direction: 'vertical',\n  loop: true,\n\n  \/\/ If we need pagination\n  pagination: {\n    el: '.swiper-pagination',\n  },\n\n  \/\/ Navigation arrows\n  navigation: {\n    nextEl: '.swiper-button-next',\n    prevEl: '.swiper-button-prev',\n  },\n\n  \/\/ And if we need scrollbar\n  scrollbar: {\n    el: '.swiper-scrollbar',\n  },\n});\n\n\n<\/script>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
