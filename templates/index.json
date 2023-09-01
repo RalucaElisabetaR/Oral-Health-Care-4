@@ -428,7 +428,7 @@
     "9ddd3a45-618f-4230-8daf-792047248b5f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\n\n.grid--1-col {\n  width: calc(\n    33.333% - var(--desktop-margin-left-first-item) -\n      var(--grid-desktop-horizontal-spacing) * 2\n  )\n \n\n\n .slider__slide  {\n  visibility: visible !important;\n}\n.slider__slide{\n         scroll-snap-align: center;\n\n\n}\n\n\n<\/style>",
+        "custom_liquid": "<style>\n\n#Slide-template--20837676974387__71f12f3e-b255-4d4c-b669-07ec24852b0d-1 \n.grid--1-col {\n  width: calc(\n    33.333% - var(--desktop-margin-left-first-item) -\n      var(--grid-desktop-horizontal-spacing) * 2\n  )\n \n}\n\n .slider__slide  {\n  visibility: visible !important;\n}\n\n\n\n<\/style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
