@@ -203,7 +203,7 @@
     "fd34b8f7-881a-4db9-a1d7-8c9360e75f43": {
       "type": "custom-liquid",
       "custom_css": [
-        "div .swiper-slide {max-width: 30%;}"
+        "div .swiper-slide {max-width: 30%; overflow: visible;}"
       ],
       "settings": {
         "custom_liquid": "<div data-review-quote-slider-target><\/div>",
