@@ -151,9 +151,10 @@
       ],
       "custom_css": [
         ".slideshow__media {display: none;}",
-        ".content-container {border-radius: 20px; background-color: white; display: block; height: 100% !important; padding: 10% 10% 10% 10%;}",
-        ".slideshow__text-wrapper {padding: 2rem;}",
-        "h2 {font-size: calc(var(--font-heading-scale) * 1.8rem); padding-bottom: 20px;}"
+        ".content-container {border-radius: 20px; background-color: white; display: block; height: 100% !important; padding: 7% 5% 7% 5%;}",
+        ".slideshow__text-wrapper {padding: 1rem;}",
+        "h3 {font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 1.6em;}",
+        "p {font-size: 15px;line-height: 1.9em;}"
       ],
       "settings": {
         "layout": "full_bleed",
