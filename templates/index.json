@@ -127,7 +127,7 @@
     "8dfff5b6-8fa6-4b40-8e4a-2848b1b4b18c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n#Slider-template--20837676974387__c719a73c-1e56-4470-9c06-6b634a5bb92d {\n        display: inline-flex;\n    flex-direction: row;\n    flex-wrap: nowrap;\n    justify-content: flex-start;\n    align-items: center;\n    align-content: center;\n  }\n\n<\/style>",
+        "custom_liquid": "<style>\n#Slider-template--20837676974387__c719a73c-1e56-4470-9c06-6b634a5bb92d {\n\noverflow: hidden;\n        display: inline-flex;\n    flex-direction: row;\n    flex-wrap: nowrap;\n    justify-content: flex-start;\n    align-items: center;\n    align-content: center;\n  }\n\n<\/style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
