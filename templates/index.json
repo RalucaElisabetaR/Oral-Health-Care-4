@@ -158,7 +158,7 @@
       ],
       "custom_css": [
         ".sections-ai-slideshow-grid {width: 100%; overflow: visible; margin: auto;}",
-        ".sections-ai-slideshow-block {max-width: 31%; display: inline-flex; margin: auto;}"
+        ".sections-ai-slideshow-block {max-width: 31%; overflow: visible; display: inline-flex; margin: auto;}"
       ],
       "settings": {
         "text_color": "#111111",
