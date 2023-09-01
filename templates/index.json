@@ -203,7 +203,7 @@
     "fd34b8f7-881a-4db9-a1d7-8c9360e75f43": {
       "type": "custom-liquid",
       "custom_css": [
-        "div .swiper-slide {max-width: 33%; overflow: visible;}"
+        ".swiper-slide {max-width: 33%; overflow: visible;}"
       ],
       "settings": {
         "custom_liquid": "<div data-review-quote-slider-target><\/div>",
@@ -247,7 +247,7 @@
         "65c417f4-71cc-43b0-a9bf-a63c1b5e5a12"
       ],
       "custom_css": [
-
+        ".swiper-slide {max-width: 33%; overflow: visible;}"
       ],
       "settings": {
         "example": "",
