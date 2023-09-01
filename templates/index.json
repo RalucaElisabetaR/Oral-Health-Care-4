@@ -157,7 +157,7 @@
         "a4d916f1-b07d-4fb9-86d8-f1e3fbf51e5d"
       ],
       "custom_css": [
-        ".sections-ai-slideshow-grid {margin: auto;}",
+        ".sections-ai-slideshow-grid {width: 100%; overflow: visible; margin: auto;}",
         ".sections-ai-slideshow-block {max-width: 31%; display: inline-flex; margin: auto;}"
       ],
       "settings": {
