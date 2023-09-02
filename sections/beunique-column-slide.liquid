@@ -5,9 +5,7 @@
 .slick-slider {
     visibility: hidden;
 }
-.slick-list:hover {
-    overflow: visible;
-}
+
 
 .slick-slide {
     transition: transform 0.3s;
@@ -118,15 +116,11 @@
       ]
       
     });
-   $('.slick-slide').on('mouseenter', function() {
-        $(this).css('transform', 'scale(1.1)');
-     
-    });
-
-    $('.slick-slide').on('mouseleave', function() {
-        $(this).css('transform', 'scale(1)');
-     
-    });
+}).on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    $('.slick-slide').css('transform', 'scale(1)');
+}).on('afterChange', function(event, slick, currentSlide){
+    $('.slick-active').css('transform', 'scale(1.1)');
+});
      $('.slick-slider').css('visibility', 'visible');
   };
 </script>
