@@ -21,5 +21,5 @@ document.addEventListener("DOMContentLoaded", function() {
     } : false,
   });
 
-  swiperContainer.style.width = sliderWidth + 'vw';
+  swiperContainer.style.width = sliderWidth + 'px';  // changed 'vw' to 'px'
 });
