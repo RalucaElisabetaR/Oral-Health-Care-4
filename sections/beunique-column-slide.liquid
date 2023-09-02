@@ -118,12 +118,14 @@
       ]
       
     });
-     $('.slide').on('mouseenter', function() {
+   $('.slick-slide').on('mouseenter', function() {
         $(this).css('transform', 'scale(1.1)');
+        $('.slick-slider, .slick-list').css('overflow', 'visible');
     });
 
-    $('.slide').on('mouseleave', function() {
+    $('.slick-slide').on('mouseleave', function() {
         $(this).css('transform', 'scale(1)');
+        $('.slick-slider, .slick-list').css('overflow', 'hidden');
     });
      $('.slick-slider').css('visibility', 'visible');
   };
