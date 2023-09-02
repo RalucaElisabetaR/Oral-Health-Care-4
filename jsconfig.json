@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["frontend/*"],
-      "~/*": ["frontend/*"]
-    }
-  }
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules"]
 }
