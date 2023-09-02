@@ -29,28 +29,28 @@
 }
 
 /* Cards */
-.card {
+.custom-card {
     border: 1px solid #ddd;
     border-radius: 5px;
     margin: 10px;
     text-align: center;
 }
 
-.card-img-top {
+.custom-card-img-top {
     width: 100%;
     height: auto;
 }
 
-.card-body {
+.custom-card-body {
     padding: 10px;
 }
 
-.card-title {
+.custom-card-title {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.card-text {
+.custom-card-text {
     font-size: 1em;
     color: #555;
 }
