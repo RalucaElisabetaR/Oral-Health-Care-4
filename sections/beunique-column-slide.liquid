@@ -14,7 +14,7 @@
 .slick-slide {
     transform-origin: center !important;
 }
-
+ 
   .slick-slide {
       transition: transform 0.3s;
   }
@@ -120,12 +120,11 @@
                     }
                 }
             ]
-        }).on('beforeChange', function(event, slick, currentSlide, nextSlide){
-            $('.slick-slide').css('transform', 'scale(1)');
-        }).on('afterChange', function(event, slick, currentSlide){
-            $('.slick-slide.slick-center').css('transform', 'scale(1.1)');
-        })
-
+    }).on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $('.slick-slide').css('transform', 'scale(1)');
+    }).on('afterChange', function(event, slick, currentSlide){
+        $('.slick-slide.slick-center').css('transform', 'scale(1.1)');
+    });
         $('.slick-slider').css('visibility', 'visible');
     };
 
