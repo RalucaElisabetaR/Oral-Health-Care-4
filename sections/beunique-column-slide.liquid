@@ -4,7 +4,9 @@
   .slick-slider {
       visibility: hidden;
   }
-
+.slick-list .draggable{
+  overflow:visible;
+}
 .slick-slide {
     transform-origin: center;
 }
@@ -123,7 +125,7 @@
     }).on('beforeChange', function(event, slick, currentSlide, nextSlide){
         $('.slick-slide').css('transform', 'scale(1)');
     }).on('afterChange', function(event, slick, currentSlide){
-        $('.slick-slide').css('transform', 'scale(1.1)');
+        $('.slick-slide.slick-center').css('transform', 'scale(1.1)');
     });
         $('.slick-slider').css('visibility', 'visible');
     };
