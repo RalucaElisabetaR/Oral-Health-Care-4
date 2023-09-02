@@ -112,6 +112,24 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "4cf8009e-db7f-4953-87f4-e6d944a8a899": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1bddf176-e5e0-4c83-8b4c-fc0bc85fe3aa": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -119,10 +137,14 @@
         "template--20837676974387__67b48175-9934-48c5-b88c-6958bedf2fd2-column-2",
         "template--20837676974387__67b48175-9934-48c5-b88c-6958bedf2fd2-column-3",
         "01bb86aa-53bb-4426-ba73-51ddb155a92a",
-        "01c2e953-9fc9-40d8-9c9e-6c37b5bae723"
+        "01c2e953-9fc9-40d8-9c9e-6c37b5bae723",
+        "4cf8009e-db7f-4953-87f4-e6d944a8a899",
+        "1bddf176-e5e0-4c83-8b4c-fc0bc85fe3aa"
       ],
       "custom_css": [
-
+        ".multicolumn-list {display: flex; overflow: auto;}",
+        ".multicolumn-list__item {flex: 0 0 auto; width: 33.33%; }",
+        ".multicolumn-card.content-container {}"
       ],
       "settings": {
         "title": "BeUnique Column Slide",
