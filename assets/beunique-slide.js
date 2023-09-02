@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     autoplay: autoplay ? {
       delay: autoplaySpeed,
-      disableOnInteraction: false,
+      disableOnInteraction: true,
       pauseOnMouseEnter: true,
     } : false,
   });
