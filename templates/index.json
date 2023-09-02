@@ -126,6 +126,9 @@
         "914f16ce-e34f-4806-b93b-a8025be3d0e5",
         "d4259ce3-979d-4a2f-8c4f-81d089ddb699"
       ],
+      "custom_css": [
+        "{max-width: 1200px; margin:auto;}"
+      ],
       "settings": {
         "slides_per_view": 3,
         "slider_width": 1200,
