@@ -5,13 +5,28 @@
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+
+    
     width: 33.33% !important; /* Set width of each slide */
 
     /* Center slide text vertically */
-    display: -webkit-box;
+
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: red;
+}
+
+/* Cards */
+.custom-card {
+  background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+      text-align: center;
+    font-size: 18px;
+      display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -23,18 +38,6 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-}
-
-.swiper-button-next, .swiper-button-prev {
-    color: red;
-}
-
-/* Cards */
-.custom-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin: 10px;
-    text-align: center;
 }
 
 .card-img-top {
