@@ -16,9 +16,7 @@
 
 }
 
-.swiper-button-next, .swiper-button-prev {
-    color: red;
-}
+
 
 /* Cards */
 .custom-card {
@@ -69,4 +67,7 @@
 .custom-card-text {
     font-size: 1em;
     color: #555;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: red;
 }
