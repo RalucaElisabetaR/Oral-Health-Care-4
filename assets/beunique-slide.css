@@ -4,10 +4,7 @@
   height: 100%;
   overflow: hidden;
 }
-.glide__slides > .glide__slide {
-  position:absolute;
-  top:0;
-}
+
 
 .glide__slide  {
   display: flex;
