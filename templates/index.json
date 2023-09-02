@@ -142,7 +142,8 @@
         "1bddf176-e5e0-4c83-8b4c-fc0bc85fe3aa"
       ],
       "custom_css": [
-
+        ".slick-slider {display: flex; width: 100%;}",
+        ".slide {max-width: 40%;}"
       ],
       "settings": {
         "title": "BeUnique Column Slide",
