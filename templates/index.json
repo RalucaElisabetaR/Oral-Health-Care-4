@@ -72,8 +72,8 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/shopify_products_pic.png",
-            "image_width": 240,
-            "image_height": 180,
+            "image_width": 100,
+            "image_height": 100,
             "title": "Sample Title 1",
             "text": "Sample Text 1"
           }
@@ -82,10 +82,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/oralsprayOC.png",
-            "image_width": 320,
-            "image_height": 280,
+            "image_width": 100,
+            "image_height": 100,
             "title": "Sample Title 2",
-            "text": "Sample Text 2"
+            "text": "dzfbv dfdf"
           }
         },
         "f2f8408a-43a6-429b-9a46-de31fbed2096": {
