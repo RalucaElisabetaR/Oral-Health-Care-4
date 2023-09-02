@@ -79,30 +79,21 @@
         </div>
       {%- endfor -%}
     </div>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        $('.multicolumn-list').slick({
-          infinite: true,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          speed: 2000,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          cssEase: 'linear',
-          pauseOnHover: true
-        });
-
-        $('.multicolumn-list__item').on('mouseenter', function() {
-          $(this).css('transform', 'scale(1.1)');
-        });
-
-        $('.multicolumn-list__item').on('mouseleave', function() {
-          $(this).css('transform', 'scale(1)');
-        });
-      });
-    </script>
   </div>
 </div>
+
+<script>
+  $(document).ready(function(){
+    $('.slick-slider').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: true,
+    });
+  });
+</script>
 
 {% schema %}
 {
