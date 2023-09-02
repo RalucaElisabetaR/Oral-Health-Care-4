@@ -134,7 +134,7 @@
         "slider_width": 960,
         "autoplay_speed": 2000,
         "show_navigation_buttons": true,
-        "autoplay": false
+        "autoplay": true
       }
     }
   },
