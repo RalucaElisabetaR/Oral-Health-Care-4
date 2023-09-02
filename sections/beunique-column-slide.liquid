@@ -72,25 +72,27 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 
     <script>
-     window.onload = function() {
-        $('.slick-slider').slick({
-          infinite: true,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          pauseOnHover: true,
-        });
+   <script>
+  $(document).ready(function() {
+    $('.slick-slider').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: true,
+    });
 
+    $('.slide').on('mouseenter', function() {
+      $(this).css('transform', 'scale(1.1)');
+    });
 
-        $('.slide').on('mouseenter', function() {
-          $(this).css('transform', 'scale(1.1)');
-        });
+    $('.slide').on('mouseleave', function() {
+      $(this).css('transform', 'scale(1)');
+    });
+  });
+</script>
 
-        $('.slide').on('mouseleave', function() {
-          $(this).css('transform', 'scale(1)');
-        });
-      });
     </script>
   </div>
 </div>
