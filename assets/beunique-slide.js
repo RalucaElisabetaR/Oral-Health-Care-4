@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     loop: true,
     loopAdditionalSlides: 30,
     speed: 1000,
-    effect: 'slide',
+    effect: 'slide', // Change slide effect to 'slide'
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
@@ -22,11 +22,25 @@ document.addEventListener("DOMContentLoaded", function() {
       delay: autoplaySpeed,
       disableOnInteraction: false,
     } : false,
-    pauseOnMouseEnter: true,
     zoom: {
-      maxRatio: 1.5,
+      maxRatio: 1.5, // Maximum zoom ratio
+      toggle: true, // Enable zoom on toggle
+    },
+    mousewheel: {
+      forceToAxis: true,
+    },
+    on: {
+      slideChangeTransitionStart: function () {
+        var zoomedSlide = this.slides[this.previousIndex];
+        zoomedSlide.classList.remove('zoomed');
+      },
+      slideChangeTransitionEnd: function () {
+        var zoomedSlide = this.slides[this.activeIndex];
+        zoomedSlide.classList.add('zoomed');
+      },
     },
   });
 
   swiperContainer.style.width = sliderWidth + 'px';
 });
+
