@@ -142,9 +142,7 @@
         "1bddf176-e5e0-4c83-8b4c-fc0bc85fe3aa"
       ],
       "custom_css": [
-        ".multicolumn-list {display: flex; overflow: auto;}",
-        ".multicolumn-list__item {flex: 0 0 auto; width: 33.33%; }",
-        ".multicolumn-card.content-container {}"
+
       ],
       "settings": {
         "title": "BeUnique Column Slide",
