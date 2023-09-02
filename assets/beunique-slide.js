@@ -13,13 +13,15 @@ document.addEventListener("DOMContentLoaded", function() {
     roundLengths: true,
     loop: true,
     loopAdditionalSlides: 30,
+    speed: 1000, // Adjust this value to make the transition more linear
     navigation: showNavigationButtons ? {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
     } : null,
     autoplay: autoplay ? {
       delay: autoplaySpeed,
-      disableOnInteraction: true,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     } : false,
   });
 
