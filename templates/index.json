@@ -130,7 +130,7 @@
         "{max-width: 1150px; margin: auto; padding: auto;}"
       ],
       "settings": {
-        "slides_per_view": 2,
+        "slides_per_view": 3,
         "slider_width": 1200,
         "autoplay_speed": 2000,
         "show_navigation_buttons": true,
