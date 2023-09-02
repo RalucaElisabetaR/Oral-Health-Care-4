@@ -30,6 +30,21 @@
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
 </div>
+
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: {{ section.settings.slides_per_view }},
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  });
+</script>
+
 {% schema %}
 {
   "name": "BEUNIQUE Slide",
