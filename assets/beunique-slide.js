@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
   var sliderWidth = parseInt(swiperContainer.dataset.sliderWidth);
   var autoplay = swiperContainer.dataset.autoplay === 'true';
   var autoplaySpeed = parseInt(swiperContainer.dataset.autoplaySpeed);
-  var showNavigationButtons = swiperContainer.dataset.showNavigationButtons === 'true';
 
   var mySwiper = new Swiper(".swiper-container", {
     spaceBetween: 1,
@@ -13,11 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
     roundLengths: true,
     loop: true,
     loopAdditionalSlides: 30,
-    speed: 1000, // Adjust this value to make the transition more linear
-    navigation: showNavigationButtons ? {
+    speed: 1000,
+    navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
-    } : null,
+    },
     autoplay: autoplay ? {
       delay: autoplaySpeed,
       disableOnInteraction: false,
