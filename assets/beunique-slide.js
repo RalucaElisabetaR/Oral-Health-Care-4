@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var slidesPerView = parseInt(swiperContainer.dataset.slidesPerView);
   var sliderWidth = parseInt(swiperContainer.dataset.sliderWidth);
   var autoplay = swiperContainer.dataset.autoplay === 'true';
+  var autoplaySpeed = parseInt(swiperContainer.dataset.autoplaySpeed);
+  var showNavigationButtons = swiperContainer.dataset.showNavigationButtons === 'true';
 
   var mySwiper = new Swiper(".swiper-container", {
     spaceBetween: 1,
@@ -11,15 +13,15 @@ document.addEventListener("DOMContentLoaded", function() {
     roundLengths: true,
     loop: true,
     loopAdditionalSlides: 30,
-    navigation: {
+    navigation: showNavigationButtons ? {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
-    },
+    } : null,
     autoplay: autoplay ? {
-      delay: 5000,
+      delay: autoplaySpeed,
       disableOnInteraction: true,
     } : false,
   });
 
-  swiperContainer.style.width = sliderWidth + 'px';  // changed 'vw' to 'px'
+  swiperContainer.style.width = sliderWidth + 'px';
 });
