@@ -3,19 +3,25 @@
 {%- style -%}
 
  #shopify-section-template--20837676974387__67b48175-9934-48c5-b88c-6958bedf2fd2 {
-    animation: fadeInAnimation ease 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
 }
- 
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-}
+
+  /* Keyframes for the fade-in */
+@-webkit-keyframes fadeInAnimation { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeInAnimation { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeInAnimation { from { opacity:0; } to { opacity:1; } }
+
 
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
