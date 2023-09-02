@@ -127,7 +127,7 @@
         "d4259ce3-979d-4a2f-8c4f-81d089ddb699"
       ],
       "custom_css": [
-        "{margin: auto; padding: auto;}"
+        "{max-width: 1150px; margin: auto; padding: auto;}"
       ],
       "settings": {
         "slides_per_view": 2,
