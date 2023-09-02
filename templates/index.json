@@ -142,7 +142,7 @@
         "1bddf176-e5e0-4c83-8b4c-fc0bc85fe3aa"
       ],
       "custom_css": [
-        ".slide {background-color: red;}"
+        ".slide {margin-left: 5px; background-color: red;}"
       ],
       "settings": {
         "title": "BeUnique Column Slide",
