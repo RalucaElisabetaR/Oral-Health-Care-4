@@ -131,7 +131,7 @@
       ],
       "settings": {
         "slides_per_view": 3,
-        "slider_width": 960,
+        "slider_width": 1160,
         "autoplay_speed": 2000,
         "show_navigation_buttons": true,
         "autoplay": true
