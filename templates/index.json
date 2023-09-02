@@ -142,6 +142,7 @@
         "1bddf176-e5e0-4c83-8b4c-fc0bc85fe3aa"
       ],
       "custom_css": [
+        ".slick-slider .slide {align-content:left;}",
         ".slide {margin-left: 5px; background-color: red;}"
       ],
       "settings": {
