@@ -119,7 +119,7 @@
 }).on('beforeChange', function(event, slick, currentSlide, nextSlide){
     $('.slick-slide').css('transform', 'scale(1)');
 }).on('afterChange', function(event, slick, currentSlide){
-    $('.slick-active').css('transform', 'scale(1.1)');
+    $('.slick-active:nth-child(2)').css('transform', 'scale(1.1)');
 });
      $('.slick-slider').css('visibility', 'visible');
   };
