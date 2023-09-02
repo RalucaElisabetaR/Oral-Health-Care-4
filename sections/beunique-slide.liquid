@@ -1,39 +1,47 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
 
-{{ 'beunique-slide.css' | asset_url | stylesheet_tag }}
-
- <script src='{{ 'beunique-slide.js' | asset_url }}' defer='defer'></script>
-
-<div class="swiper-container" data-slides-per-view="{{ section.settings.slides_per_view }}" data-autoplay="{{ section.settings.autoplay }}" data-autoplay-speed="{{ section.settings.autoplay_speed }}">
-  <div class="swiper-wrapper">
-    {% for block in section.blocks %}
-      <div class="swiper-slide">
-        <div class="custom-card">
-          <img class="custom-card-img-top" src="{{ block.settings.image | img_url: block.settings.image_width, block.settings.image_height }}" alt="{{ block.settings.image.alt }}" width="{{ block.settings.image_width }}" loading="eager" height="{{ block.settings.image_height }}">
-          <div class="custom-card-body">
-            <h2 class="custom-card-title">{{ block.settings.title }}</h2>
-            <p class="custom-card-text">{{ block.settings.text }}</p>
+<div class="glide">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      {% for block in section.blocks %}
+        <li class="glide__slide">
+          <div class="custom-card">
+            <img
+              class="custom-card-img-top"
+              src="{{ block.settings.image | img_url: block.settings.image_width, block.settings.image_height }}"
+              alt="{{ block.settings.image.alt }}"
+              width="{{ block.settings.image_width }}"
+              loading="eager"
+              height="{{ block.settings.image_height }}"
+            >
+            <div class="custom-card-body">
+              <h2 class="custom-card-title">{{ block.settings.title }}</h2>
+              <p class="custom-card-text">{{ block.settings.text }}</p>
+            </div>
           </div>
-        </div>
-      </div>
-    {% endfor %}
+        </li>
+      {% endfor %}
+    </ul>
   </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+  </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: {{ section.settings.slides_per_view }},
-      spaceBetween: 10,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
+    new Glide('.glide', {
+      type: 'carousel',
+      startAt: 0,
+      perView: {{ section.settings.slides_per_view }},
+      hoverpause: true,
+      animationDuration: 1000,
+      animationTimingFunc: 'linear',
+    }).mount();
   });
 </script>
-
 
 {% schema %}
 {
