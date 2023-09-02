@@ -106,6 +106,13 @@
           }
         }
       ]
+         $('.slide').on('mouseenter', function() {
+      $(this).css('transform', 'scale(1.1)');
+    });
+
+    $('.slide').on('mouseleave', function() {
+      $(this).css('transform', 'scale(1)');
+    });
     });
   };
 </script>
