@@ -4,6 +4,10 @@
   height: 100%;
   overflow: hidden;
 }
+.swiper-container > .swiper-slide__content {
+  position:absolute;
+  top:0;
+}
 
 .swiper-slide {
   display: flex;
