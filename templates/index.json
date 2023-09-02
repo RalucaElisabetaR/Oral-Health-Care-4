@@ -143,7 +143,7 @@
       ],
       "custom_css": [
         ".slide {margin-left: 5px; background-color: red;}",
-        ".slick-current {overflow: visible!important;}"
+        ".slick-current .slick-active{overflow: visible !important;}"
       ],
       "settings": {
         "title": "BeUnique Column Slide",
