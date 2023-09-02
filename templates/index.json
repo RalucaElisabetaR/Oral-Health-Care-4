@@ -142,8 +142,7 @@
         "1bddf176-e5e0-4c83-8b4c-fc0bc85fe3aa"
       ],
       "custom_css": [
-        ".slick-slider {display: flex; flex-wrap: nowrap; overflow: hidden; position: relative;}",
-        ".slide {float: left; min-width: 30%; position: relative;}"
+
       ],
       "settings": {
         "title": "BeUnique Column Slide",
